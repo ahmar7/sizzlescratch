@@ -265,6 +265,9 @@ html.w-mod-touch * {
   color: #f9f5f0;
   text-shadow: 0 0 1px #07241f, 0 0 1px #07241f, 0 0 1px #07241f, 0 0 1px #07241f;
 }
+.full-cover.col-md-7{
+    padding-inline: 0 !important;
+}
 
 @media (max-width: 1800px) {
   .banner {
