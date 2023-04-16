@@ -369,7 +369,15 @@ line-height: 1.4rem;
   }
     
 }
+
 @media (max-width: 767px) {
+    .coin-gif{
+        margin: 35px 0;
+    }
+    .full-cover{
+        padding-top: 40px;
+        height: auto;
+    }
       .scroll-h2 {
     margin-bottom: 10px;
     font-size: 32px;
