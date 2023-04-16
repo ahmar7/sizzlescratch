@@ -308,6 +308,10 @@ html.w-mod-touch * {
     flex-direction: column;
     gap: 20px;
 }
+.faq{
+    min-height: 100vh;
+    height: auto;
+}
 .brand-desc .basic-para {
   color: white;
   width: auto;
@@ -559,14 +563,34 @@ font-size: 15px;
     padding-left: 64px;
   }
 }
+
 @media (max-width: 991px) {
-  .scroll-h2 {
-    font-size: 48px;
-    line-height: 62px;
-  }
+    .scroll-h2 {
+        font-size: 48px;
+        line-height: 62px;
+    }
+}
+@media (max-width: 950px) {
+.faq{
+    padding-top: 40px !important;
+    flex-direction: column !important;
+    justify-content: start;
+    gap: 40px;
+}
+.faq .col-md-6,
+.faq .col-md-4
+{
+    width: 100% !important;
+}
+.faq .basic-para{
+    width: 100% !important;
+}.individual-faq{
+    width: 100%;
+}
+ 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) { 
     .brand-cards {
     left: -114px;
 }
