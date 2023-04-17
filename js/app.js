@@ -37,10 +37,11 @@ function myFunction() {
 }
 function myFunction2() {
   var day = document.getElementById("slider2").value;
+ 
   var price = document.getElementById("slider").value;
   var finalprice = document.getElementById("finalprice");
   let newVal = price * day * 365;
-  document.getElementById("output").innerHTML = "$" + price;
+  document.getElementById("output2").innerHTML = day;
   let finalVal = Math.sign(newVal) * (Math.abs(newVal) / 1000);
   let nowFinal = Math.round(finalVal);
   console.log(nowFinal);
