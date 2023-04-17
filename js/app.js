@@ -12,7 +12,7 @@ $(".marquee-reverse").marquee({
   direction: "right",
   duplicated: true,
 });
- 
+
 $(document).ready(function () {
   $(".individual-faq").click(function () {
     $(".individual-faq").removeClass("full-faq");
@@ -20,26 +20,25 @@ $(document).ready(function () {
     $(this).addClass("full-faq");
   });
 });
-let thisFunc=(e)=>{
+let thisFunc = (e) => {
   console.log(e);
-} 
+};
 function myFunction() {
-  var price = document.getElementById("slider").value; 
-  var day = document.getElementById("slider2").value; 
-  var finalprice = document.getElementById("finalprice"); 
+  var price = document.getElementById("slider").value;
+  var day = document.getElementById("slider2").value;
+  var finalprice = document.getElementById("finalprice");
 
   let newVal = price * day * 365;
-  document.getElementById("output").innerHTML = "$" + price; 
-let finalVal=  Math.sign(newVal) * (Math.abs(newVal) / 1000)
+  document.getElementById("output").innerHTML = "$" + price;
+  let finalVal = Math.sign(newVal) * (Math.abs(newVal) / 1000);
   let nowFinal = Math.round(finalVal);
   console.log(nowFinal);
-  finalprice.innerHTML = "$" + nowFinal+"K";
-
+  finalprice.innerHTML = "$" + nowFinal + "K";
 }
 function myFunction2() {
-  var day = document.getElementById("slider2").value; 
-  var price = document.getElementById("slider").value; 
-  var finalprice = document.getElementById("finalprice"); 
+  var day = document.getElementById("slider2").value;
+  var price = document.getElementById("slider").value;
+  var finalprice = document.getElementById("finalprice");
   let newVal = price * day * 365;
   document.getElementById("output").innerHTML = "$" + price;
   let finalVal = Math.sign(newVal) * (Math.abs(newVal) / 1000);
