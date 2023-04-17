@@ -1,4 +1,79 @@
 
+    @font-face {
+  font-family: "impact";
+  font-style: normal;
+  font-display: auto;
+  src: url("../fonts/impact.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GOOD HEADLINE";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../fonts/FontFont-GoodHeadlinePro-XCondUltra.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Integralcf;
+  font-weight: 600;
+  font-display: auto;
+  src: url("../fonts/IntegralCF-Bold.otf");
+}
+@font-face {
+  font-family: GOOD HEADLINE;
+  src: url(../fonts/Headlines-SemiBold.otf);
+}
+@font-face {
+  font-family: "Basis";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../fonts/BasisGrotesque-Regular-Pro.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Basis";
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url("../fonts/BasisGrotesque-Bold-Pro.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Basis";
+  font-style: normal;
+  font-weight: 100;
+  font-display: auto;
+  src: url("../fonts/BasisGrotesque-Light-Pro.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Basis";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../fonts/BasisGrotesque-Black-Pro.eot");
+  src: url("../fonts/BasisGrotesque-Black-Pro.ttf") format("truetype");
+}
+@font-face {
+  font-family: eicons;
+  src: url(../fonts/eicons.ttf) format("truetype");
+
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(../fonts/fa-solid-900.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/fa-brands-400.ttf) format("truetype");
+}
 body {
   margin: 0;
   box-sizing: border-box;
