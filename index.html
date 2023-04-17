@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="./css/style.css" />
 
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,14 +31,14 @@
   <body>
     <div class="main-app">
       <div class="banner">
-        <!-- <div class="video-overlay"></div> -->
         <video
           class="video-bg deks-only"
           autoplay
           loop
           muted
           src="./img/Untitled design (3).mp4"
-        ></video>
+        >
+        </video>
         <video
           class="mbl-only video-bg"
           autoplay
@@ -66,10 +66,10 @@
               of your kitchen space and generate additional profits within a
               matter of weeks.
             </p>
-            <button class="contact-btn">
+            <a href="#contact" class="contact-btn">
               Connect Your Kitchen
               <i class="fas fa-arrow-right"></i>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -128,16 +128,54 @@
             Connect your kitchen with one of our exclusive brands, Kodak’s Wings
             is our first brand with more coming soon.
           </p>
-          <button class="contact-btn">
+          <a href="#contact" class="contact-btn">
             Connect Your Kitchen
             <i class="fas fa-arrow-right"></i>
-          </button>
+          </a>
         </div>
       </div>
       <div class="section-main">
-        <div class="row d-flex section-pad section2 full-cover justify-center">
-          <div class="col-md-4 coin-gif text-center">
-            <!-- <img src="./img/gif-coin.webp" alt="" /> -->
+        <div class="row d-flex section-pad section2 calco full-cover justify-center">
+          <div class="col-md-4 coin-gif calc text-center">
+            <div class="calculator">
+              <div class="calc-bg">
+                <h1>EARNINGS CALCULATOR</h1>
+                <div class="price-slider">
+                  <div class="sider-head">
+                    <h1 id="output">$25</h1>
+                    <p>AVERAGE ORDER SIZE</p>
+                  </div>
+                  <input
+                    type="range"
+                    id="slider"
+                    value="25"
+                    min="25"
+                    max="75"
+                    oninput="myFunction()"
+                    />
+                    
+                </div>
+                <p class="xe">X</p>
+                    <div class="price-slider">
+                  <div class="sider-head">
+                    <h1 id="output2">10</h1>
+                    <p>ORDERS PER DAY</p>
+                  </div>
+                  <input
+                    type="range"
+                    id="slider2"
+                    value="10"
+                    min="10"
+                    max="100"
+                    oninput="myFunction2()"
+                    />
+                    
+                </div>
+                 <p class="xe mb-1">=</p>
+                 <h1 class="lalc">SIZZLE COULD EARN YOU</h1>
+                 <h1 class="final-p">$91K</h1><p class="lal">ADDITIONAL ANNUAL REVENUE</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-7">
             <h2 class="header2">
@@ -195,6 +233,11 @@
                 <div class="question">
                   WHATS THE CATCH? <i class="fa-solid fa-chevron-down"></i>
                 </div>
+                <p
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellendus itaque deleniti mollitia? Ratione quasi facere
+                  mollitia error veniam? Odit, esse.</p
+                >
               </div>
               <div class="individual-faq">
                 <div class="question">
@@ -209,22 +252,295 @@
                 <div class="question">
                   WHEN CAN I START?? <i class="fa-solid fa-chevron-down"></i>
                 </div>
+                <p
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellendus itaque deleniti mollitia? Ratione quasi facere
+                  mollitia error veniam? Odit, esse.</p
+                >
               </div>
               <div class="individual-faq">
                 <div class="question">
                   HOW DO I GET PAID? <i class="fa-solid fa-chevron-down"></i>
                 </div>
+                <p
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellendus itaque deleniti mollitia? Ratione quasi facere
+                  mollitia error veniam? Odit, esse.</p
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="section-padding contact-form" id="contact">
+        <h1 class="header2 black-clr mb-3">PARTNER WITH SIZZLE</h1>
+        <p class="basic-para black-clr">
+          Tell us more about your business so we can determine the right brand
+          for your kitchen.</p
+        >
+        <form
+          class="contact-main"
+          method="POST"
+          name="New Form"
+          onsubmit="sendit();reset(); return false;"
+        >
+          <div class="contact-fields">
+            <div class="single-input">
+              <label for="form-field-name" class="field-label">
+                First Name
+              </label>
+              <input
+                type="text"
+                name="form_fields[name]"
+                id="form-field-name"
+                class="form-input"
+                placeholder="First Name"
+                required="required"
+              />
+            </div>
+            <div class="single-input">
+              <label for="form-field-field_37b26c2" class="field-label">
+                Last Name
+              </label>
+              <input
+                type="text"
+                name="form_fields[field_37b26c2]"
+                id="form-field-field_37b26c2"
+                class="form-input"
+                placeholder="Last Name"
+                required="required"
+              />
+            </div>
+            <div class="single-input">
+              <label for="form-field-field_7797e05" class="field-label">
+                Phone Number
+              </label>
+
+              <input
+                type="tel"
+                name="form_fields[field_7797e05]"
+                id="phoneNum"
+                class="form-input"
+                placeholder="Phone Number"
+                required="required"
+              />
+            </div>
+            <div class="single-input">
+              <label for="form-field-email" class="field-label">
+                Email Address
+              </label>
+              <input
+                type="email"
+                name="form_fields[email]"
+                id="form-field-email"
+                class="form-input email"
+                placeholder="Email Address"
+                required="required"
+              />
+            </div>
+            <div class="single-input">
+              <label for="form-field-field_1705b0d" class="field-label">
+                Business Type
+              </label>
+              <div class="form-input select-drop">
+                <select
+                  name="form_fields[field_1705b0d]"
+                  id="businessType"
+                  class="form-input"
+                  required="required"
+                >
+                  <option value="">Business Type</option>
+                  <option value="Airport">Airport</option>
+                  <option value="Hotel">Hotel</option>
+                  <option value="Restaurant">Restaurant</option>
+                  <option value="Kitchen">Kitchen</option>
+                  <option value="Venue">Venue</option>
+                  <option value="Stadium">Stadium</option>
+                  <option value="College Campus">College Campus</option>
+                  <option value="Other  ">Other </option>
+                </select>
+              </div>
+            </div>
+            <div class="single-input">
+              <label for="form-field-field_5f81938" class="field-label">
+                Business Name
+              </label>
+              <input
+                type="text"
+                name="form_fields[field_5f81938]"
+                id="businessName"
+                class="form-input"
+                placeholder="Business Name  "
+                required="required"
+              />
+            </div>
+            <div class="single-input">
+              <label for="form-field-field_f216365" class="field-label">
+                Business Address
+              </label>
+              <input
+                type="text"
+                name="form_fields[field_f216365]"
+                id="businessAddress"
+                class="form-input"
+                placeholder="Business Address"
+                required="required"
+              />
+            </div>
+            <div class="single-input">
+              <label for="form-field-field_1705b0d" class="field-label">
+                Business State
+              </label>
+
+              <div class="form-input select-drop">
+                <select
+                  name="form_fields[field_e18ae89]"
+                  id="businessState"
+                  class="form-input"
+                  required="required"
+                >
+                  <option value="">State</option>
+                  <option value="AL">AL</option>
+                  <option value="AK">AK</option>
+                  <option value="AZ">AZ</option>
+                  <option value="AR">AR</option>
+                  <option value="CA">CA</option>
+                  <option value="CO">CO</option>
+                  <option value="CT">CT</option>
+                  <option value="DE">DE</option>
+                  <option value="DC">DC</option>
+                  <option value="FL">FL</option>
+                  <option value="GA">GA</option>
+                  <option value="HI">HI</option>
+                  <option value="ID">ID</option>
+                  <option value="IL">IL</option>
+                  <option value="IN">IN</option>
+                  <option value="IA">IA</option>
+                  <option value="KS">KS</option>
+                  <option value="KY">KY</option>
+                  <option value="LA">LA</option>
+                  <option value="ME">ME</option>
+                  <option value="MD">MD</option>
+                  <option value="MA">MA</option>
+                  <option value="MI">MI</option>
+                  <option value="MN">MN</option>
+                  <option value="MS">MS</option>
+                  <option value="MO">MO</option>
+                  <option value="MT">MT</option>
+                  <option value="NE">NE</option>
+                  <option value="NV">NV</option>
+                  <option value="NH">NH</option>
+                  <option value="NJ">NJ</option>
+                  <option value="NM">NM</option>
+                  <option value="NY">NY</option>
+                  <option value="NC">NC</option>
+                  <option value="ND">ND</option>
+                  <option value="OH">OH</option>
+                  <option value="OK">OK</option>
+                  <option value="OR">OR</option>
+                  <option value="PA">PA</option>
+                  <option value="RI">RI</option>
+                  <option value="SC">SC</option>
+                  <option value="SD">SD</option>
+                  <option value="TN">TN</option>
+                  <option value="TX">TX</option>
+                  <option value="UT">UT</option>
+                  <option value="VT">VT</option>
+                  <option value="VA">VA</option>
+                  <option value="WA">WA</option>
+                  <option value="WV">WV</option>
+                  <option value="WI">WI</option>
+                  <option value="WY">WY</option>
+                  <option value="">---CANADA---</option>
+                  <option value="NL">NL</option>
+                  <option value="PE">PE</option>
+                  <option value="NS">NS</option>
+                  <option value="NB">NB</option>
+                  <option value="QC">QC</option>
+                  <option value="ON">ON</option>
+                  <option value="MB">MB</option>
+                  <option value="SK">SK</option>
+                  <option value="AB">AB</option>
+                  <option value="BC">BC</option>
+                  <option value="YT">YT</option>
+                  <option value="NT">NT</option>
+                  <option value="NU">NU</option>
+                </select>
+              </div>
+            </div>
+            <div class="single-input">
+              <label for="form-field-field_597e207" class="field-label">
+                Business Zip Code
+              </label>
+              <input
+                type="text"
+                name="form_fields[field_597e207]"
+                id="businessZip"
+                class="form-input"
+                placeholder="Business Zip Code  "
+                required="required"
+              />
+            </div>
+            <div class="single-input">
+              <label for="form-field-field_2c6ae75" class="field-label">
+                Country
+              </label>
+              <div class="form-input select-drop">
+                <select
+                  name="form_fields[field_2c6ae75]"
+                  id="Country"
+                  class="form-input"
+                  required="required"
+                >
+                  <option value="US">US</option>
+                  <option value="CA">CA</option>
+                </select>
+              </div>
+            </div>
+            <div class="single-input full-w">
+              <label for="form-field-field_fd93bc1" class="field-label">
+                Number of Locations
+              </label>
+              <input
+                type="number"
+                name="form_fields[field_fd93bc1]"
+                id="locNum"
+                class="form-input"
+                placeholder="Number Of locations"
+                required="required"
+                min="1"
+                max=""
+              />
+            </div>
+
+            <div class="btn-wrap">
+              <button
+                id="btnSub"
+                type="submit"
+                class="elementor-button elementor-size-md"
+              >
+                <span>
+                  <span class="elementor-button-icon"> </span>
+                  <span class="elementor-button-text">SUBMIT</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="top-f">
+          <div class="inner-top">
+            <a href="#" class="footer-logo"
+              ><img src="./img/Sizzle_FINAL-01.png" alt=""
+            /></a>
+            <a class="tm" href="">Terms of Use</a>
+            <a class="tm" href="">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="sizzle-about">© 2023 SIZZLE . All rights reserved.</div>
+      </div>
     </div>
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script> -->
   </body>
 
   <script src="./js/app.js"></script>
