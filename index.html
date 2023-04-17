@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SIZZLE | Increase Your Kitchen’s Profit</title>
 
-    <link rel="stylesheet" href="./css/style.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link
@@ -27,8 +27,85 @@
       src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js"
     ></script>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <style>
+      @font-face {
+  font-family: "impact";
+  font-style: normal;
+  font-display: auto;
+  src: url("../fonts/impact.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GOOD HEADLINE";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../fonts/FontFont-GoodHeadlinePro-XCondUltra.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Integralcf;
+  font-weight: 600;
+  font-display: auto;
+  src: url("../fonts/IntegralCF-Bold.otf");
+}
+@font-face {
+  font-family: GOOD HEADLINE;
+  src: url(../fonts/Headlines-SemiBold.otf);
+}
+@font-face {
+  font-family: "Basis";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../fonts/BasisGrotesque-Regular-Pro.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Basis";
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url("../fonts/BasisGrotesque-Bold-Pro.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Basis";
+  font-style: normal;
+  font-weight: 100;
+  font-display: auto;
+  src: url("../fonts/BasisGrotesque-Light-Pro.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Basis";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../fonts/BasisGrotesque-Black-Pro.eot");
+  src: url("../fonts/BasisGrotesque-Black-Pro.ttf") format("truetype");
+}
+@font-face {
+  font-family: eicons;
+  src: url(../fonts/eicons.ttf) format("truetype");
+
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(../fonts/fa-solid-900.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/fa-brands-400.ttf) format("truetype");
+}
+    </style>
   </head>
-  <body  >
+  <body>
     <div class="main-app">
       <div class="banner">
         <video
@@ -135,7 +212,9 @@
         </div>
       </div>
       <div class="section-main">
-        <div class="row d-flex section-pad section2 calco full-cover justify-center">
+        <div
+          class="row d-flex section-pad section2 calco full-cover justify-center"
+        >
           <div class="col-md-4 coin-gif calc text-center">
             <div class="calculator">
               <div class="calc-bg">
@@ -152,11 +231,10 @@
                     min="25"
                     max="75"
                     oninput="myFunction()"
-                    />
-                    
+                  />
                 </div>
                 <p class="xe">X</p>
-                    <div class="price-slider">
+                <div class="price-slider">
                   <div class="sider-head">
                     <h1 id="output2">20</h1>
                     <p>ORDERS PER DAY</p>
@@ -168,12 +246,12 @@
                     min="10"
                     max="100"
                     oninput="myFunction2()"
-                    />
-                    
+                  />
                 </div>
-                 <p class="xe mb-1">=</p>
-                 <h1 class="lalc">SIZZLE COULD EARN YOU</h1>
-                 <h1 class="final-p" id="finalprice">$91K</h1><p class="lal">ADDITIONAL ANNUAL REVENUE</p>
+                <p class="xe mb-1">=</p>
+                <h1 class="lalc">SIZZLE COULD EARN YOU</h1>
+                <h1 class="final-p" id="finalprice">$91K</h1
+                ><p class="lal">ADDITIONAL ANNUAL REVENUE</p>
               </div>
             </div>
           </div>
