@@ -22,14 +22,30 @@ $(document).ready(function () {
 });
 let thisFunc=(e)=>{
   console.log(e);
-}
+} 
 function myFunction() {
-  var val = document.getElementById("slider").value; //gets the oninput value
-  document.getElementById("output").innerHTML = "$"+val; //displays this value to the html page
+  var price = document.getElementById("slider").value; 
+  var day = document.getElementById("slider2").value; 
+  var finalprice = document.getElementById("finalprice"); 
+
+  let newVal = price * day * 365;
+  document.getElementById("output").innerHTML = "$" + price; 
+let finalVal=  Math.sign(newVal) * (Math.abs(newVal) / 1000)
+  let nowFinal = Math.round(finalVal);
+  console.log(nowFinal);
+  finalprice.innerHTML = "$" + nowFinal+"K";
+
 }
 function myFunction2() {
-  var val = document.getElementById("slider2").value; //gets the oninput value
-  document.getElementById("output2").innerHTML = val; //displays this value to the html page
+  var day = document.getElementById("slider2").value; 
+  var price = document.getElementById("slider").value; 
+  var finalprice = document.getElementById("finalprice"); 
+  let newVal = price * day * 365;
+  document.getElementById("output").innerHTML = "$" + price;
+  let finalVal = Math.sign(newVal) * (Math.abs(newVal) / 1000);
+  let nowFinal = Math.round(finalVal);
+  console.log(nowFinal);
+  finalprice.innerHTML = "$" + nowFinal + "K";
 }
 
 let sendit = () => {
