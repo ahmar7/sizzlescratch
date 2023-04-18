@@ -47,7 +47,48 @@ function myFunction2() {
   console.log(nowFinal);
   finalprice.innerHTML = "$" + nowFinal + "K";
 }
+// 
+var videoPlayButton,
 
+videoWrapper = document.getElementsByClassName('video-wrapper')[0],
+
+video = document.getElementsByTagName('video')[0],
+
+videoMethods = {
+
+renderVideoPlayButton: function() {
+
+if (videoWrapper.contains(video)) {
+
+this.formatVideoPlayButton()
+
+video.classList.add('has-media-controls-hidden')
+
+videoPlayButton = document.getElementsByClassName('video-overlay-play-button')[0]
+
+videoPlayButton.addEventListener('click', this.hideVideoPlayButton)
+
+}
+this.hideVideoPlayButton()
+},
+
+ 
+
+hideVideoPlayButton: function() {
+
+video.play()
+
+videoPlayButton.classList.add('is-hidden')
+
+video.classList.remove('has-media-controls-hidden')
+ 
+
+}
+
+}
+
+videoMethods.renderVideoPlayButton()
+// 
 let sendit = () => {
   const fname = document.getElementById("form-field-name");
   const lname = document.getElementById("form-field-field_37b26c2");
