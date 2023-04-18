@@ -13,13 +13,34 @@ $(".marquee-reverse").marquee({
   duplicated: true,
 });
 
-$(document).ready(function () {
-  $(".individual-faq").click(function () {
-    $(".individual-faq").removeClass("full-faq");
-    // $(".tab").addClass("active"); // instead of this do the below
-    $(this).addClass("full-faq");
-  });
-});
+// $(document).ready(function () {
+//   $(".individual-faq").click(function () {
+//     $(".individual-faq").removeClass("full-faq");
+//     // $(".tab").addClass("active"); // instead of this do the below
+//     $(this).addClass("full-faq");
+//   });
+// });
+let faq1 = document.getElementById("faq1");
+let faq2 = document.getElementById("faq2");
+let faq3 = document.getElementById("faq3");
+let toggleFaq1=()=>{
+faq1.classList.toggle("full-faq");
+faq2.classList.remove("full-faq");
+faq3.classList.remove("full-faq");
+
+}
+let toggleFaq2=()=>{
+faq2.classList.toggle("full-faq");
+faq1.classList.remove("full-faq");
+faq3.classList.remove("full-faq");
+
+}
+let toggleFaq3=()=>{
+faq3.classList.toggle("full-faq");
+faq2.classList.remove("full-faq");
+faq1.classList.remove("full-faq");
+
+}
 let thisFunc = (e) => {
   console.log(e);
 };
