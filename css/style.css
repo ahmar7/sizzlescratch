@@ -961,6 +961,7 @@ input[type="range"]::-webkit-slider-thumb {
   .faq{
     justify-content: center !important;
     gap: 30px !important;
+    padding-top: 0 !important;
   }
   .section.scrolling-text {
     padding-bottom: 6px;
