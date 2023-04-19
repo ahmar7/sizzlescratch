@@ -43,6 +43,9366 @@
  * ----------------------------------------------------------------------
  * Webflow: Interactions 2.0: Init
  */
-Webflow.require('ix2').init(
-    { "events": { "e-2": { "id": "e-2", "name": "", "animationType": "custom", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5b1b8dfe7f93d320dfa70", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d5b1b8dfe7f93d320dfa70", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641395177279 }, "e-4": { "id": "e-4", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-3" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5dbdbe39827a12d4c97de", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d5dbdbe39827a12d4c97de", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641405404037 }, "e-9": { "id": "e-9", "name": "", "animationType": "preset", "eventTypeId": "MOUSE_CLICK", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-2", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-10" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5dbdbe39827a12d4c97de|58c34b7b-db3e-3849-9826-d7f06738301d", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "61d5dbdbe39827a12d4c97de|58c34b7b-db3e-3849-9826-d7f06738301d", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641406575818 }, "e-11": { "id": "e-11", "name": "", "animationType": "preset", "eventTypeId": "MOUSE_CLICK", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-2", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-12" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5dbdbe39827a12d4c97de|a72dbaa2-a056-4e47-4322-74df4bbfe921", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "61d5dbdbe39827a12d4c97de|a72dbaa2-a056-4e47-4322-74df4bbfe921", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641407171222 }, "e-14": { "id": "e-14", "name": "", "animationType": "custom", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-3", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-13" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5b1b8dfe7f93d320dfa70", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d5b1b8dfe7f93d320dfa70", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641494553897 }, "e-16": { "id": "e-16", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-15" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d74482f739931c9566ae16", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d74482f739931c9566ae16", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641497731387 }, "e-18": { "id": "e-18", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-4", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-17" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d74482f739931c9566ae16", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d74482f739931c9566ae16", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641497731387 }, "e-19": { "id": "e-19", "name": "", "animationType": "custom", "eventTypeId": "TAB_ACTIVE", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-5", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-20" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "selector": ".hiw-tablink", "originalId": "61d74482f739931c9566ae16|5788ff3c-cde6-b912-6007-e920c91239c0", "appliesTo": "CLASS" }, "targets": [{ "selector": ".hiw-tablink", "originalId": "61d74482f739931c9566ae16|5788ff3c-cde6-b912-6007-e920c91239c0", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641499887089 }, "e-20": { "id": "e-20", "name": "", "animationType": "custom", "eventTypeId": "TAB_INACTIVE", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-6", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-19" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "selector": ".hiw-tablink", "originalId": "61d74482f739931c9566ae16|5788ff3c-cde6-b912-6007-e920c91239c0", "appliesTo": "CLASS" }, "targets": [{ "selector": ".hiw-tablink", "originalId": "61d74482f739931c9566ae16|5788ff3c-cde6-b912-6007-e920c91239c0", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641499887090 }, "e-25": { "id": "e-25", "name": "", "animationType": "custom", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-11", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-24" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d77446582efc7406574749", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d77446582efc7406574749", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641511539813 }, "e-27": { "id": "e-27", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-26" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d7fe8c48f0435998bd8c8e", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d7fe8c48f0435998bd8c8e", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641545356907 }, "e-29": { "id": "e-29", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-12", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-28" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d7fe8c48f0435998bd8c8e", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d7fe8c48f0435998bd8c8e", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641545356907 }, "e-30": { "id": "e-30", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_OVER", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-13", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-31" } }, "mediaQueries": ["main"], "target": { "selector": ".navbar-navlink", "originalId": "b7f73d03-2ab4-d243-8c73-87d1293a67aa", "appliesTo": "CLASS" }, "targets": [{ "selector": ".navbar-navlink", "originalId": "b7f73d03-2ab4-d243-8c73-87d1293a67aa", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641568747687 }, "e-31": { "id": "e-31", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_OUT", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-14", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-30" } }, "mediaQueries": ["main"], "target": { "selector": ".navbar-navlink", "originalId": "b7f73d03-2ab4-d243-8c73-87d1293a67aa", "appliesTo": "CLASS" }, "targets": [{ "selector": ".navbar-navlink", "originalId": "b7f73d03-2ab4-d243-8c73-87d1293a67aa", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641568747688 }, "e-33": { "id": "e-33", "name": "", "animationType": "custom", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-17", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5b1b8dfe7f93d320dfa70", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d5b1b8dfe7f93d320dfa70", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-17-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1641969619806 }, "e-35": { "id": "e-35", "name": "", "animationType": "custom", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-34" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5b1b8dfe7f93d320dfa70", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d5b1b8dfe7f93d320dfa70", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641970289886 }, "e-37": { "id": "e-37", "name": "", "animationType": "custom", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-36" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5dbdbe39827a12d4c97de", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d5dbdbe39827a12d4c97de", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641970456879 }, "e-38": { "id": "e-38", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_OVER", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-19", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-39" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5dbdbe39827a12d4c97de|b5b91bd2-2200-0033-d273-680744bd2f12", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "61d5dbdbe39827a12d4c97de|b5b91bd2-2200-0033-d273-680744bd2f12", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641970853623 }, "e-40": { "id": "e-40", "name": "", "animationType": "custom", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-17", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d77446582efc7406574749", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d77446582efc7406574749", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-17-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1641972705855 }, "e-42": { "id": "e-42", "name": "", "animationType": "custom", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-17", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d5dbdbe39827a12d4c97de", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d5dbdbe39827a12d4c97de", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-17-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1641972885821 }, "e-43": { "id": "e-43", "name": "", "animationType": "custom", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-17", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d7fe8c48f0435998bd8c8e", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d7fe8c48f0435998bd8c8e", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-17-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1641972907599 }, "e-44": { "id": "e-44", "name": "", "animationType": "custom", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-17", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d827c641a1b329c9fb1c6b", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d827c641a1b329c9fb1c6b", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-17-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1641972928978 }, "e-46": { "id": "e-46", "name": "", "animationType": "custom", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-45" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d74482f739931c9566ae16", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "61d74482f739931c9566ae16", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1641997537962 }, "e-49": { "id": "e-49", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-48" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "625f9ed0df90643aa893049f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "625f9ed0df90643aa893049f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650433746314 }, "e-51": { "id": "e-51", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-21", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-50" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "625f9ed0df90643aa893049f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "625f9ed0df90643aa893049f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650433746314 }, "e-52": { "id": "e-52", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-22", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "625f9ed0df90643aa893049f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "625f9ed0df90643aa893049f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-22-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1650433746314 }, "e-54": { "id": "e-54", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-53" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "625f9ed0df90643aa893049f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "625f9ed0df90643aa893049f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650433746314 }, "e-56": { "id": "e-56", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-55" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6260eb6b1e4ab3cc80f08000", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "6260eb6b1e4ab3cc80f08000", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650518892218 }, "e-58": { "id": "e-58", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-23", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-57" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6260eb6b1e4ab3cc80f08000", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "6260eb6b1e4ab3cc80f08000", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650518892218 }, "e-59": { "id": "e-59", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-24", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6260eb6b1e4ab3cc80f08000", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "6260eb6b1e4ab3cc80f08000", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-24-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1650518892218 }, "e-61": { "id": "e-61", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-60" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6260eb6b1e4ab3cc80f08000", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "6260eb6b1e4ab3cc80f08000", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650518892218 }, "e-63": { "id": "e-63", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-62" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6261148cc05d44023277748d", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "6261148cc05d44023277748d", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650529423972 }, "e-65": { "id": "e-65", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-25", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-64" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6261148cc05d44023277748d", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "6261148cc05d44023277748d", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650529423972 }, "e-66": { "id": "e-66", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-26", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6261148cc05d44023277748d", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "6261148cc05d44023277748d", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-26-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1650529423972 }, "e-68": { "id": "e-68", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-67" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6261148cc05d44023277748d", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "6261148cc05d44023277748d", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650529423972 }, "e-70": { "id": "e-70", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-69" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62611c556d63271a0baab12f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62611c556d63271a0baab12f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650531417393 }, "e-72": { "id": "e-72", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-27", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-71" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62611c556d63271a0baab12f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62611c556d63271a0baab12f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650531417393 }, "e-73": { "id": "e-73", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-28", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62611c556d63271a0baab12f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62611c556d63271a0baab12f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-28-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1650531417393 }, "e-75": { "id": "e-75", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-74" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62611c556d63271a0baab12f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62611c556d63271a0baab12f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1650531417393 }, "e-76": { "id": "e-76", "name": "", "animationType": "preset", "eventTypeId": "MOUSE_OVER", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-29", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-77" } }, "mediaQueries": ["main"], "target": { "selector": ".navbar-navlink", "originalId": "6285102b0c117a0bb9bb0a15|43eb1bd6-6562-f5f4-5f0c-2982d1a84c36", "appliesTo": "CLASS" }, "targets": [{ "selector": ".navbar-navlink", "originalId": "6285102b0c117a0bb9bb0a15|43eb1bd6-6562-f5f4-5f0c-2982d1a84c36", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652887607205 }, "e-77": { "id": "e-77", "name": "", "animationType": "preset", "eventTypeId": "MOUSE_OUT", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-30", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-76" } }, "mediaQueries": ["main"], "target": { "selector": ".navbar-navlink", "originalId": "6285102b0c117a0bb9bb0a15|43eb1bd6-6562-f5f4-5f0c-2982d1a84c36", "appliesTo": "CLASS" }, "targets": [{ "selector": ".navbar-navlink", "originalId": "6285102b0c117a0bb9bb0a15|43eb1bd6-6562-f5f4-5f0c-2982d1a84c36", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652887607205 }, "e-78": { "id": "e-78", "name": "", "animationType": "preset", "eventTypeId": "MOUSE_OVER", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-31", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-79" } }, "mediaQueries": ["main"], "target": { "selector": ".navbar-navlink", "originalId": "6285102b0c117a0bb9bb0a15|fddeba66-74d5-1bc2-de0b-6fb9432babd6", "appliesTo": "CLASS" }, "targets": [{ "selector": ".navbar-navlink", "originalId": "6285102b0c117a0bb9bb0a15|fddeba66-74d5-1bc2-de0b-6fb9432babd6", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652887859061 }, "e-79": { "id": "e-79", "name": "", "animationType": "preset", "eventTypeId": "MOUSE_OUT", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-32", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-78" } }, "mediaQueries": ["main"], "target": { "selector": ".navbar-navlink", "originalId": "6285102b0c117a0bb9bb0a15|fddeba66-74d5-1bc2-de0b-6fb9432babd6", "appliesTo": "CLASS" }, "targets": [{ "selector": ".navbar-navlink", "originalId": "6285102b0c117a0bb9bb0a15|fddeba66-74d5-1bc2-de0b-6fb9432babd6", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652887859061 }, "e-80": { "id": "e-80", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_OVER", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-33", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-81" } }, "mediaQueries": ["main"], "target": { "selector": ".nav2-dropdown-wrapper", "originalId": "c50b118c-2b56-2b06-5b8f-045817efc8b6", "appliesTo": "CLASS" }, "targets": [{ "selector": ".nav2-dropdown-wrapper", "originalId": "c50b118c-2b56-2b06-5b8f-045817efc8b6", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652889781404 }, "e-81": { "id": "e-81", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_OUT", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-34", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-80" } }, "mediaQueries": ["main"], "target": { "selector": ".nav2-dropdown-wrapper", "originalId": "c50b118c-2b56-2b06-5b8f-045817efc8b6", "appliesTo": "CLASS" }, "targets": [{ "selector": ".nav2-dropdown-wrapper", "originalId": "c50b118c-2b56-2b06-5b8f-045817efc8b6", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652889781406 }, "e-85": { "id": "e-85", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-84" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b2ef332555df0deb2df", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b2ef332555df0deb2df", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951854687 }, "e-87": { "id": "e-87", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-37", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-86" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b2ef332555df0deb2df", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b2ef332555df0deb2df", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951854687 }, "e-88": { "id": "e-88", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-38", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b2ef332555df0deb2df", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b2ef332555df0deb2df", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-38-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1652951854687 }, "e-90": { "id": "e-90", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-89" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b2ef332555df0deb2df", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b2ef332555df0deb2df", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951854687 }, "e-92": { "id": "e-92", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-91" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b5a98366b193c06f733", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b5a98366b193c06f733", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951898800 }, "e-94": { "id": "e-94", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-39", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-93" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b5a98366b193c06f733", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b5a98366b193c06f733", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951898800 }, "e-95": { "id": "e-95", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-40", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b5a98366b193c06f733", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b5a98366b193c06f733", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-40-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1652951898800 }, "e-97": { "id": "e-97", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-96" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b5a98366b193c06f733", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b5a98366b193c06f733", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951898800 }, "e-99": { "id": "e-99", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-98" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b6987c43c06800666a6", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b6987c43c06800666a6", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951913577 }, "e-101": { "id": "e-101", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-41", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-100" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b6987c43c06800666a6", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b6987c43c06800666a6", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951913577 }, "e-102": { "id": "e-102", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-42", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b6987c43c06800666a6", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b6987c43c06800666a6", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-42-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1652951913577 }, "e-104": { "id": "e-104", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-103" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62860b6987c43c06800666a6", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62860b6987c43c06800666a6", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1652951913577 }, "e-106": { "id": "e-106", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-105" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628d1de02974bcfbc784ac8a", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628d1de02974bcfbc784ac8a", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653415393069 }, "e-108": { "id": "e-108", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-43", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-107" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628d1de02974bcfbc784ac8a", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628d1de02974bcfbc784ac8a", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653415393069 }, "e-109": { "id": "e-109", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-44", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628d1de02974bcfbc784ac8a", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628d1de02974bcfbc784ac8a", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-44-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1653415393069 }, "e-111": { "id": "e-111", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-110" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628d1de02974bcfbc784ac8a", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628d1de02974bcfbc784ac8a", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653415393069 }, "e-113": { "id": "e-113", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-112" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e373a3d762f4dd90b7d18", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e373a3d762f4dd90b7d18", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653487419174 }, "e-115": { "id": "e-115", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-45", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-114" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e373a3d762f4dd90b7d18", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e373a3d762f4dd90b7d18", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653487419174 }, "e-116": { "id": "e-116", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-46", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e373a3d762f4dd90b7d18", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e373a3d762f4dd90b7d18", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-46-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1653487419174 }, "e-118": { "id": "e-118", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-117" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e373a3d762f4dd90b7d18", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e373a3d762f4dd90b7d18", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653487419174 }, "e-120": { "id": "e-120", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-119" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e48e41b1b635be948b4cb", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e48e41b1b635be948b4cb", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653491941011 }, "e-122": { "id": "e-122", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-47", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-121" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e48e41b1b635be948b4cb", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e48e41b1b635be948b4cb", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653491941011 }, "e-123": { "id": "e-123", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-48", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e48e41b1b635be948b4cb", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e48e41b1b635be948b4cb", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-48-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1653491941011 }, "e-125": { "id": "e-125", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-124" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e48e41b1b635be948b4cb", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e48e41b1b635be948b4cb", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653491941011 }, "e-127": { "id": "e-127", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-126" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e8fe78cf219f504eb1ba1", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e8fe78cf219f504eb1ba1", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653510120606 }, "e-129": { "id": "e-129", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-49", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-128" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e8fe78cf219f504eb1ba1", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e8fe78cf219f504eb1ba1", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653510120606 }, "e-130": { "id": "e-130", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-50", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e8fe78cf219f504eb1ba1", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e8fe78cf219f504eb1ba1", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-50-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1653510120606 }, "e-132": { "id": "e-132", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-131" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628e8fe78cf219f504eb1ba1", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628e8fe78cf219f504eb1ba1", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653510120606 }, "e-134": { "id": "e-134", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-133" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f48654595732ccf76ead1", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f48654595732ccf76ead1", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653557350511 }, "e-136": { "id": "e-136", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-51", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-135" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f48654595732ccf76ead1", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f48654595732ccf76ead1", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653557350511 }, "e-137": { "id": "e-137", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-52", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f48654595732ccf76ead1", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f48654595732ccf76ead1", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-52-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1653557350511 }, "e-139": { "id": "e-139", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-138" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f48654595732ccf76ead1", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f48654595732ccf76ead1", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653557350511 }, "e-141": { "id": "e-141", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-140" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f6e301760e831f33adacd", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f6e301760e831f33adacd", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653567024878 }, "e-143": { "id": "e-143", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-53", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-142" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f6e301760e831f33adacd", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f6e301760e831f33adacd", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653567024878 }, "e-144": { "id": "e-144", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-54", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f6e301760e831f33adacd", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f6e301760e831f33adacd", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-54-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1653567024878 }, "e-146": { "id": "e-146", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-145" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f6e301760e831f33adacd", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f6e301760e831f33adacd", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653567024878 }, "e-148": { "id": "e-148", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-147" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f90e99b87dbfe75db079e", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f90e99b87dbfe75db079e", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653575913757 }, "e-150": { "id": "e-150", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-55", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-149" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f90e99b87dbfe75db079e", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f90e99b87dbfe75db079e", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653575913757 }, "e-151": { "id": "e-151", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-56", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f90e99b87dbfe75db079e", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f90e99b87dbfe75db079e", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-56-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1653575913757 }, "e-153": { "id": "e-153", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-152" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "628f90e99b87dbfe75db079e", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "628f90e99b87dbfe75db079e", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653575913757 }, "e-154": { "id": "e-154", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_CLICK", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-57", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-155" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "selector": ".gi-top", "originalId": "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7", "appliesTo": "CLASS" }, "targets": [{ "selector": ".gi-top", "originalId": "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653576635282 }, "e-155": { "id": "e-155", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_SECOND_CLICK", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-58", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-154" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "selector": ".gi-top", "originalId": "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7", "appliesTo": "CLASS" }, "targets": [{ "selector": ".gi-top", "originalId": "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1653576635285 }, "e-157": { "id": "e-157", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-156" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62a1e3cc48b5ad449e2efcf6", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62a1e3cc48b5ad449e2efcf6", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1654776780700 }, "e-159": { "id": "e-159", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-59", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-158" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62a1e3cc48b5ad449e2efcf6", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62a1e3cc48b5ad449e2efcf6", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1654776780700 }, "e-160": { "id": "e-160", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-60", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62a1e3cc48b5ad449e2efcf6", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62a1e3cc48b5ad449e2efcf6", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-60-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1654776780700 }, "e-162": { "id": "e-162", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-161" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62a1e3cc48b5ad449e2efcf6", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62a1e3cc48b5ad449e2efcf6", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1654776780700 }, "e-164": { "id": "e-164", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-163" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62b5d0f1b25b1b9863a8012f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62b5d0f1b25b1b9863a8012f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1656082674754 }, "e-166": { "id": "e-166", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-61", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-165" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62b5d0f1b25b1b9863a8012f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62b5d0f1b25b1b9863a8012f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1656082674754 }, "e-167": { "id": "e-167", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-62", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62b5d0f1b25b1b9863a8012f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62b5d0f1b25b1b9863a8012f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-62-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1656082674754 }, "e-169": { "id": "e-169", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-168" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62b5d0f1b25b1b9863a8012f", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62b5d0f1b25b1b9863a8012f", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1656082674754 }, "e-171": { "id": "e-171", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-170" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62caecf5aeebe9b9b85ee696", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62caecf5aeebe9b9b85ee696", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1657466101235 }, "e-173": { "id": "e-173", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-63", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-172" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62caecf5aeebe9b9b85ee696", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62caecf5aeebe9b9b85ee696", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1657466101235 }, "e-174": { "id": "e-174", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-64", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62caecf5aeebe9b9b85ee696", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62caecf5aeebe9b9b85ee696", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-64-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1657466101235 }, "e-176": { "id": "e-176", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-18", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-175" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62caecf5aeebe9b9b85ee696", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62caecf5aeebe9b9b85ee696", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1657466101235 }, "e-177": { "id": "e-177", "name": "", "animationType": "preset", "eventTypeId": "SCROLL_INTO_VIEW", "action": { "id": "", "actionTypeId": "FADE_EFFECT", "instant": false, "config": { "actionListId": "fadeIn", "autoStopEventId": "e-178" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "6284fce1bd5efb358dc87e56|1bc67c42-448b-86e9-3a7c-355f635c3e7c", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "6284fce1bd5efb358dc87e56|1bc67c42-448b-86e9-3a7c-355f635c3e7c", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": 0, "scrollOffsetUnit": "%", "delay": 200, "direction": null, "effectIn": true }, "createdOn": 1657471792513 }, "e-179": { "id": "e-179", "name": "", "animationType": "preset", "eventTypeId": "SCROLL_INTO_VIEW", "action": { "id": "", "actionTypeId": "FADE_EFFECT", "instant": false, "config": { "actionListId": "fadeIn", "autoStopEventId": "e-180" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "selector": ".h1", "originalId": "625f9ed0df90643aa893049f|4e6ef68d-76a2-5420-b089-b3ff04f53363", "appliesTo": "CLASS" }, "targets": [{ "selector": ".h1", "originalId": "625f9ed0df90643aa893049f|4e6ef68d-76a2-5420-b089-b3ff04f53363", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": 0, "scrollOffsetUnit": "%", "delay": 100, "direction": null, "effectIn": true }, "createdOn": 1657554188546 }, "e-181": { "id": "e-181", "name": "", "animationType": "preset", "eventTypeId": "SCROLL_INTO_VIEW", "action": { "id": "", "actionTypeId": "SLIDE_EFFECT", "instant": false, "config": { "actionListId": "slideInBottom", "autoStopEventId": "e-182" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "selector": ".hero-paragraph", "originalId": "625f9ed0df90643aa893049f|a8d48d89-7008-d200-dea4-c4299144c428", "appliesTo": "CLASS" }, "targets": [{ "selector": ".hero-paragraph", "originalId": "625f9ed0df90643aa893049f|a8d48d89-7008-d200-dea4-c4299144c428", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": 0, "scrollOffsetUnit": "%", "delay": 300, "direction": "BOTTOM", "effectIn": true }, "createdOn": 1657554217546 }, "e-183": { "id": "e-183", "name": "", "animationType": "preset", "eventTypeId": "SCROLL_INTO_VIEW", "action": { "id": "", "actionTypeId": "GROW_EFFECT", "instant": false, "config": { "actionListId": "growIn", "autoStopEventId": "e-184" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "selector": ".button", "originalId": "625f9ed0df90643aa893049f|4e6ef68d-76a2-5420-b089-b3ff04f53367", "appliesTo": "CLASS" }, "targets": [{ "selector": ".button", "originalId": "625f9ed0df90643aa893049f|4e6ef68d-76a2-5420-b089-b3ff04f53367", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": 0, "scrollOffsetUnit": "%", "delay": 200, "direction": null, "effectIn": true }, "createdOn": 1657554270780 }, "e-186": { "id": "e-186", "name": "", "animationType": "preset", "eventTypeId": "PAGE_FINISH", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-65", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-185" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62ecf7073da29e6c30f9a933", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62ecf7073da29e6c30f9a933", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": { "loop": true, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1659696903281 }, "e-187": { "id": "e-187", "name": "", "animationType": "preset", "eventTypeId": "PAGE_SCROLL", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-66", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "62ecf7073da29e6c30f9a933", "appliesTo": "PAGE", "styleBlockIds": [] }, "targets": [{ "id": "62ecf7073da29e6c30f9a933", "appliesTo": "PAGE", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-66-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1659696903281 }, "e-189": { "id": "e-189", "name": "", "animationType": "preset", "eventTypeId": "MOUSE_OVER", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-67", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-190" } }, "mediaQueries": ["main"], "target": { "selector": ".navbar-navlink", "originalId": "54fedd4d-a4d5-9d8f-7af5-b901fb64c7c4", "appliesTo": "CLASS" }, "targets": [{ "selector": ".navbar-navlink", "originalId": "54fedd4d-a4d5-9d8f-7af5-b901fb64c7c4", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1664143264182 }, "e-190": { "id": "e-190", "name": "", "animationType": "preset", "eventTypeId": "MOUSE_OUT", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-68", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-189" } }, "mediaQueries": ["main"], "target": { "selector": ".navbar-navlink", "originalId": "54fedd4d-a4d5-9d8f-7af5-b901fb64c7c4", "appliesTo": "CLASS" }, "targets": [{ "selector": ".navbar-navlink", "originalId": "54fedd4d-a4d5-9d8f-7af5-b901fb64c7c4", "appliesTo": "CLASS" }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1664143264182 }, "e-191": { "id": "e-191", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_CLICK", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-35", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-192" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "c50b118c-2b56-2b06-5b8f-045817efc8e1", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "c50b118c-2b56-2b06-5b8f-045817efc8e1", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1664145526368 }, "e-192": { "id": "e-192", "name": "", "animationType": "custom", "eventTypeId": "MOUSE_SECOND_CLICK", "action": { "id": "", "actionTypeId": "GENERAL_START_ACTION", "config": { "delay": 0, "easing": "", "duration": 0, "actionListId": "a-36", "affectedElements": {}, "playInReverse": false, "autoStopEventId": "e-191" } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "c50b118c-2b56-2b06-5b8f-045817efc8e1", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "c50b118c-2b56-2b06-5b8f-045817efc8e1", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": { "loop": false, "playInReverse": false, "scrollOffsetValue": null, "scrollOffsetUnit": null, "delay": null, "direction": null, "effectIn": null }, "createdOn": 1664145526372 }, "e-193": { "id": "e-193", "name": "", "animationType": "custom", "eventTypeId": "SCROLLING_IN_VIEW", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-16", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61d74482f739931c9566ae16|4e6ef68d-76a2-5420-b089-b3ff04f53360", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "61d74482f739931c9566ae16|4e6ef68d-76a2-5420-b089-b3ff04f53360", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-16-p", "smoothing": 50, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": false, "endOffsetValue": 50 }], "createdOn": 1664215006038 } }, "actionLists": { "a": { "id": "a", "title": "Headings Scroll", "actionItemGroups": [{ "actionItems": [{ "id": "a-n", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 24000, "target": { "selector": ".scroll-h2", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d366d"] }, "xValue": -100, "xUnit": "%", "yUnit": "PX", "zUnit": "PX" } }] }, { "actionItems": [{ "id": "a-n-2", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "selector": ".scroll-h2", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d366d"] }, "xValue": 0, "xUnit": "%", "yUnit": "PX", "zUnit": "PX" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641395180327 }, "a-2": { "id": "a-2", "title": "Hours Number change", "actionItemGroups": [{ "actionItems": [{ "id": "a-2-n", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": {}, "value": "none" } }] }, { "actionItems": [{ "id": "a-2-n-2", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": {}, "value": "block" } }, { "id": "a-2-n-3", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": {}, "value": "none" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1637756875266 }, "a-3": { "id": "a-3", "title": "AP CTA Text Scroll", "actionItemGroups": [{ "actionItems": [{ "id": "a-3-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "61d5b1b8dfe7f93d320dfa70|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-3-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "61d5b1b8dfe7f93d320dfa70|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-4": { "id": "a-4", "title": "AP CTA Text Scroll 2", "actionItemGroups": [{ "actionItems": [{ "id": "a-4-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "61d74482f739931c9566ae16|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-4-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "61d74482f739931c9566ae16|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-5": { "id": "a-5", "title": "How It Works Tab In", "actionItemGroups": [{ "actionItems": [{ "id": "a-5-n", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-tablink-content", "selectorGuids": ["49c3f78b-a794-d67a-a20c-7f57305cc7f4"] }, "heightValue": 0, "widthUnit": "px", "heightUnit": "px", "locked": false } }] }, { "actionItems": [{ "id": "a-5-n-3", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "", "duration": 400, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-tablink-content", "selectorGuids": ["49c3f78b-a794-d67a-a20c-7f57305cc7f4"] }, "widthUnit": "px", "heightUnit": "AUTO", "locked": false } }, { "id": "a-5-n-5", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-tablink-icon_block", "selectorGuids": ["3af98e62-4ec1-d164-5fb8-26bb216bd084"] }, "zValue": 90, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }, { "id": "a-5-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".hti-h", "selectorGuids": ["e338f850-f1fd-d223-4670-d3eee79ceafa"] }, "value": 0, "unit": "" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1641499907531 }, "a-6": { "id": "a-6", "title": "How It Works Tab Out", "actionItemGroups": [{ "actionItems": [{ "id": "a-6-n", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "", "duration": 400, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-tablink-content", "selectorGuids": ["49c3f78b-a794-d67a-a20c-7f57305cc7f4"] }, "heightValue": 0, "widthUnit": "px", "heightUnit": "px", "locked": false } }, { "id": "a-6-n-3", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-tablink-icon_block", "selectorGuids": ["3af98e62-4ec1-d164-5fb8-26bb216bd084"] }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }, { "id": "a-6-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".hti-h", "selectorGuids": ["e338f850-f1fd-d223-4670-d3eee79ceafa"] }, "value": 1, "unit": "" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641499907531 }, "a-11": { "id": "a-11", "title": "Contact Round Text Scroll", "actionItemGroups": [{ "actionItems": [{ "id": "a-11-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 360000, "target": { "id": "61d77446582efc7406574749|8d827ff1-eb0d-4f3d-47e8-76dbd128651d" }, "zValue": 3600, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-11-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "61d77446582efc7406574749|8d827ff1-eb0d-4f3d-47e8-76dbd128651d" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641511551382 }, "a-12": { "id": "a-12", "title": "AP CTA Text Scroll 4", "actionItemGroups": [{ "actionItems": [{ "id": "a-12-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "61d7fe8c48f0435998bd8c8e|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-12-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "61d7fe8c48f0435998bd8c8e|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-13": { "id": "a-13", "title": "Navbar Navlink Hover", "actionItemGroups": [{ "actionItems": [{ "id": "a-13-n", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "none" } }, { "id": "a-13-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": 1, "unit": "" } }, { "id": "a-13-n-5", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": "block" } }, { "id": "a-13-n-2", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-13-n-3", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "block" } }, { "id": "a-13-n-7", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-13-n-8", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": "none" } }, { "id": "a-13-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 1, "unit": "" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1641568756501 }, "a-14": { "id": "a-14", "title": "Navbar Navlink Hover Out", "actionItemGroups": [{ "actionItems": [{ "id": "a-14-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-14-n-3", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "none" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641568756501 }, "a-17": { "id": "a-17", "title": "Navbar Scroll Color Change", "continuousParameterGroups": [{ "id": "a-17-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-17-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-17-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-17-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-18": { "id": "a-18", "title": "Headings Scroll 2", "actionItemGroups": [{ "actionItems": [{ "id": "a-18-n-2", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 30000, "target": { "selector": ".scroll-h2-reverse", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3667"] }, "xValue": 100, "xUnit": "%", "yUnit": "PX", "zUnit": "PX" } }] }, { "actionItems": [{ "id": "a-18-n-4", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "selector": ".scroll-h2-reverse", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3667"] }, "xValue": 0, "xUnit": "%", "yUnit": "PX", "zUnit": "PX" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641395180327 }, "a-19": { "id": "a-19", "title": "New Timed Animation", "actionItemGroups": [{ "actionItems": [{ "id": "a-19-n", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".color-overlay", "selectorGuids": ["282e3833-0aa5-3e8e-96c0-3c86e43941d8"] }, "value": 1, "unit": "" } }] }, { "actionItems": [{ "id": "a-19-n-2", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".color-overlay", "selectorGuids": ["282e3833-0aa5-3e8e-96c0-3c86e43941d8"] }, "value": 0, "unit": "" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1641970857928 }, "a-21": { "id": "a-21", "title": "AP CTA Text Scroll 5", "actionItemGroups": [{ "actionItems": [{ "id": "a-21-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "625f9ed0df90643aa893049f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-21-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "625f9ed0df90643aa893049f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-22": { "id": "a-22", "title": "Navbar Scroll Color Change 2", "continuousParameterGroups": [{ "id": "a-22-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-22-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "625f9ed0df90643aa893049f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-22-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "625f9ed0df90643aa893049f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-22-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "625f9ed0df90643aa893049f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-23": { "id": "a-23", "title": "AP CTA Text Scroll 6", "actionItemGroups": [{ "actionItems": [{ "id": "a-23-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "6260eb6b1e4ab3cc80f08000|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-23-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "6260eb6b1e4ab3cc80f08000|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-24": { "id": "a-24", "title": "Navbar Scroll Color Change 3", "continuousParameterGroups": [{ "id": "a-24-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-24-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "6260eb6b1e4ab3cc80f08000|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-24-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "6260eb6b1e4ab3cc80f08000|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-24-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "6260eb6b1e4ab3cc80f08000|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-25": { "id": "a-25", "title": "AP CTA Text Scroll 7", "actionItemGroups": [{ "actionItems": [{ "id": "a-25-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "6261148cc05d44023277748d|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-25-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "6261148cc05d44023277748d|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-26": { "id": "a-26", "title": "Navbar Scroll Color Change 4", "continuousParameterGroups": [{ "id": "a-26-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-26-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "6261148cc05d44023277748d|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-26-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "6261148cc05d44023277748d|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-26-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "6261148cc05d44023277748d|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-27": { "id": "a-27", "title": "AP CTA Text Scroll 8", "actionItemGroups": [{ "actionItems": [{ "id": "a-27-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "62611c556d63271a0baab12f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-27-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "62611c556d63271a0baab12f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-28": { "id": "a-28", "title": "Navbar Scroll Color Change 5", "continuousParameterGroups": [{ "id": "a-28-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-28-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "62611c556d63271a0baab12f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-28-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62611c556d63271a0baab12f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-28-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62611c556d63271a0baab12f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-29": { "id": "a-29", "title": "Navbar Navlink Hover 2", "actionItemGroups": [{ "actionItems": [{ "id": "a-29-n", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "none" } }, { "id": "a-29-n-2", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": 1, "unit": "" } }, { "id": "a-29-n-3", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": "block" } }, { "id": "a-29-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-29-n-5", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "block" } }, { "id": "a-29-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-29-n-7", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": "none" } }, { "id": "a-29-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 1, "unit": "" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1641568756501 }, "a-30": { "id": "a-30", "title": "Navbar Navlink Hover Out 2", "actionItemGroups": [{ "actionItems": [{ "id": "a-30-n", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-30-n-2", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "none" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641568756501 }, "a-31": { "id": "a-31", "title": "Navbar Navlink Hover 3", "actionItemGroups": [{ "actionItems": [{ "id": "a-31-n", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "none" } }, { "id": "a-31-n-2", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": 1, "unit": "" } }, { "id": "a-31-n-3", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": "block" } }, { "id": "a-31-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-31-n-5", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "block" } }, { "id": "a-31-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-31-n-7", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": "none" } }, { "id": "a-31-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 1, "unit": "" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1641568756501 }, "a-32": { "id": "a-32", "title": "Navbar Navlink Hover Out 3", "actionItemGroups": [{ "actionItems": [{ "id": "a-32-n", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-32-n-2", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "none" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641568756501 }, "a-33": { "id": "a-33", "title": "Nav2 Hover", "actionItemGroups": [{ "actionItems": [{ "id": "a-33-n", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-links-wrapper", "selectorGuids": ["04f7aaff-ac67-9be5-5609-496c546fd01f"] }, "value": "none" } }, { "id": "a-33-n-2", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-links-wrapper", "selectorGuids": ["04f7aaff-ac67-9be5-5609-496c546fd01f"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-33-n-3", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 100, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-links-wrapper", "selectorGuids": ["04f7aaff-ac67-9be5-5609-496c546fd01f"] }, "value": "flex" } }, { "id": "a-33-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 100, "easing": "ease", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-links-wrapper", "selectorGuids": ["04f7aaff-ac67-9be5-5609-496c546fd01f"] }, "value": 1, "unit": "" } }, { "id": "a-33-n-5", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 100, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-icon", "selectorGuids": ["2b4ab39f-97ef-9ca4-844b-bf768ae15d30"] }, "zValue": -180, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1652889786713 }, "a-34": { "id": "a-34", "title": "Nav2 Hover Out", "actionItemGroups": [{ "actionItems": [{ "id": "a-34-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 200, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-links-wrapper", "selectorGuids": ["04f7aaff-ac67-9be5-5609-496c546fd01f"] }, "value": 0, "unit": "" } }, { "id": "a-34-n-5", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 200, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-icon", "selectorGuids": ["2b4ab39f-97ef-9ca4-844b-bf768ae15d30"] }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-34-n-3", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-links-wrapper", "selectorGuids": ["04f7aaff-ac67-9be5-5609-496c546fd01f"] }, "value": "none" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1652889786713 }, "a-37": { "id": "a-37", "title": "AP CTA Text Scroll 9", "actionItemGroups": [{ "actionItems": [{ "id": "a-37-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "62860b2ef332555df0deb2df|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-37-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "62860b2ef332555df0deb2df|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-38": { "id": "a-38", "title": "Navbar Scroll Color Change 6", "continuousParameterGroups": [{ "id": "a-38-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-38-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "62860b2ef332555df0deb2df|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-38-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62860b2ef332555df0deb2df|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-38-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62860b2ef332555df0deb2df|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-39": { "id": "a-39", "title": "AP CTA Text Scroll 10", "actionItemGroups": [{ "actionItems": [{ "id": "a-39-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "62860b5a98366b193c06f733|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-39-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "62860b5a98366b193c06f733|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-40": { "id": "a-40", "title": "Navbar Scroll Color Change 7", "continuousParameterGroups": [{ "id": "a-40-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-40-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "62860b5a98366b193c06f733|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-40-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62860b5a98366b193c06f733|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-40-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62860b5a98366b193c06f733|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-41": { "id": "a-41", "title": "AP CTA Text Scroll 11", "actionItemGroups": [{ "actionItems": [{ "id": "a-41-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "62860b6987c43c06800666a6|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-41-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "62860b6987c43c06800666a6|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-42": { "id": "a-42", "title": "Navbar Scroll Color Change 8", "continuousParameterGroups": [{ "id": "a-42-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-42-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "62860b6987c43c06800666a6|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-42-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62860b6987c43c06800666a6|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-42-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62860b6987c43c06800666a6|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-43": { "id": "a-43", "title": "AP CTA Text Scroll 12", "actionItemGroups": [{ "actionItems": [{ "id": "a-43-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "628d1de02974bcfbc784ac8a|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-43-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "628d1de02974bcfbc784ac8a|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-44": { "id": "a-44", "title": "Navbar Scroll Color Change 9", "continuousParameterGroups": [{ "id": "a-44-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-44-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "628d1de02974bcfbc784ac8a|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-44-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628d1de02974bcfbc784ac8a|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-44-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628d1de02974bcfbc784ac8a|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-45": { "id": "a-45", "title": "AP CTA Text Scroll 13", "actionItemGroups": [{ "actionItems": [{ "id": "a-45-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "628e373a3d762f4dd90b7d18|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-45-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "628e373a3d762f4dd90b7d18|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-46": { "id": "a-46", "title": "Navbar Scroll Color Change 10", "continuousParameterGroups": [{ "id": "a-46-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-46-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "628e373a3d762f4dd90b7d18|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-46-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628e373a3d762f4dd90b7d18|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-46-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628e373a3d762f4dd90b7d18|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-47": { "id": "a-47", "title": "AP CTA Text Scroll 14", "actionItemGroups": [{ "actionItems": [{ "id": "a-47-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "628e48e41b1b635be948b4cb|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-47-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "628e48e41b1b635be948b4cb|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-48": { "id": "a-48", "title": "Navbar Scroll Color Change 11", "continuousParameterGroups": [{ "id": "a-48-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-48-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "628e48e41b1b635be948b4cb|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-48-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628e48e41b1b635be948b4cb|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-48-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628e48e41b1b635be948b4cb|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-49": { "id": "a-49", "title": "AP CTA Text Scroll 15", "actionItemGroups": [{ "actionItems": [{ "id": "a-49-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "628e8fe78cf219f504eb1ba1|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-49-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "628e8fe78cf219f504eb1ba1|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-50": { "id": "a-50", "title": "Navbar Scroll Color Change 12", "continuousParameterGroups": [{ "id": "a-50-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-50-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "628e8fe78cf219f504eb1ba1|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-50-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628e8fe78cf219f504eb1ba1|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-50-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628e8fe78cf219f504eb1ba1|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-51": { "id": "a-51", "title": "AP CTA Text Scroll 16", "actionItemGroups": [{ "actionItems": [{ "id": "a-51-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "628f48654595732ccf76ead1|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-51-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "628f48654595732ccf76ead1|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-52": { "id": "a-52", "title": "Navbar Scroll Color Change 13", "continuousParameterGroups": [{ "id": "a-52-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-52-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "628f48654595732ccf76ead1|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-52-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628f48654595732ccf76ead1|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-52-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628f48654595732ccf76ead1|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-53": { "id": "a-53", "title": "AP CTA Text Scroll 17", "actionItemGroups": [{ "actionItems": [{ "id": "a-53-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "628f6e301760e831f33adacd|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-53-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "628f6e301760e831f33adacd|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-54": { "id": "a-54", "title": "Navbar Scroll Color Change 14", "continuousParameterGroups": [{ "id": "a-54-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-54-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "628f6e301760e831f33adacd|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-54-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628f6e301760e831f33adacd|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-54-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628f6e301760e831f33adacd|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-55": { "id": "a-55", "title": "AP CTA Text Scroll 18", "actionItemGroups": [{ "actionItems": [{ "id": "a-55-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "628f90e99b87dbfe75db079e|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-55-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "628f90e99b87dbfe75db079e|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-56": { "id": "a-56", "title": "Navbar Scroll Color Change 15", "continuousParameterGroups": [{ "id": "a-56-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-56-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "628f90e99b87dbfe75db079e|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-56-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628f90e99b87dbfe75db079e|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-56-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "628f90e99b87dbfe75db079e|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-57": { "id": "a-57", "title": "Glossary Open", "actionItemGroups": [{ "actionItems": [{ "id": "a-57-n", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "value": "none" } }, { "id": "a-57-n-2", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "heightValue": 0, "widthUnit": "PX", "heightUnit": "px", "locked": false } }, { "id": "a-57-n-3", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-57-n-4", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "value": "block" } }] }, { "actionItems": [{ "id": "a-57-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "value": 1, "unit": "" } }, { "id": "a-57-n-5", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "ease", "duration": 200, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "widthUnit": "PX", "heightUnit": "AUTO", "locked": false } }, { "id": "a-57-n-7", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "ease", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".gi-top-icon_block", "selectorGuids": ["61ab4bd6-e9a8-4188-e53c-3f4f8475c20d"] }, "zValue": 180, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }, { "id": "a-57-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".git-v", "selectorGuids": ["2cff7f1a-4a7c-0ff5-70ef-6a100fb9266b"] }, "value": 0, "unit": "" } }, { "id": "a-57-n-9", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": true, "id": "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7" }, "globalSwatchId": "792894d9", "rValue": 44, "bValue": 127, "gValue": 194, "aValue": 1 } }, { "id": "a-57-n-10", "actionTypeId": "STYLE_TEXT_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".gi-top-text", "selectorGuids": ["15aad865-cdcc-cad5-2096-da808a877bca"] }, "globalSwatchId": "", "rValue": 255, "bValue": 255, "gValue": 255, "aValue": 1 } }, { "id": "a-57-n-11", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".git-h", "selectorGuids": ["2b1aaefc-45a1-ad5a-1796-f40fa1a29650"] }, "globalSwatchId": "", "rValue": 255, "bValue": 255, "gValue": 255, "aValue": 1 } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1653576639724 }, "a-58": { "id": "a-58", "title": "Glossary Close", "actionItemGroups": [{ "actionItems": [{ "id": "a-58-n-5", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "value": 0, "unit": "" } }, { "id": "a-58-n-6", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "heightValue": 0, "widthUnit": "PX", "heightUnit": "px", "locked": false } }, { "id": "a-58-n-7", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".gi-top-icon_block", "selectorGuids": ["61ab4bd6-e9a8-4188-e53c-3f4f8475c20d"] }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }, { "id": "a-58-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".git-v", "selectorGuids": ["2cff7f1a-4a7c-0ff5-70ef-6a100fb9266b"] }, "value": 1, "unit": "" } }, { "id": "a-58-n-9", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": true, "id": "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7" }, "globalSwatchId": "", "rValue": 255, "bValue": 255, "gValue": 255, "aValue": 1 } }, { "id": "a-58-n-10", "actionTypeId": "STYLE_TEXT_COLOR", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".gi-top-text", "selectorGuids": ["15aad865-cdcc-cad5-2096-da808a877bca"] }, "globalSwatchId": "552a4fbd", "rValue": 30, "bValue": 43, "gValue": 37, "aValue": 1 } }, { "id": "a-58-n-11", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "ease", "duration": 300, "target": { "useEventTarget": "CHILDREN", "selector": ".git-h", "selectorGuids": ["2b1aaefc-45a1-ad5a-1796-f40fa1a29650"] }, "globalSwatchId": "552a4fbd", "rValue": 30, "bValue": 43, "gValue": 37, "aValue": 1 } }] }, { "actionItems": [{ "id": "a-58-n-4", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".gi-bottom", "selectorGuids": ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"] }, "value": "none" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1653576639724 }, "a-59": { "id": "a-59", "title": "AP CTA Text Scroll 19", "actionItemGroups": [{ "actionItems": [{ "id": "a-59-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "62a1e3cc48b5ad449e2efcf6|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-59-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "62a1e3cc48b5ad449e2efcf6|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-60": { "id": "a-60", "title": "Navbar Scroll Color Change 16", "continuousParameterGroups": [{ "id": "a-60-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-60-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "62a1e3cc48b5ad449e2efcf6|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-60-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62a1e3cc48b5ad449e2efcf6|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-60-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62a1e3cc48b5ad449e2efcf6|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-61": { "id": "a-61", "title": "AP CTA Text Scroll 20", "actionItemGroups": [{ "actionItems": [{ "id": "a-61-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "62b5d0f1b25b1b9863a8012f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-61-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "62b5d0f1b25b1b9863a8012f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-62": { "id": "a-62", "title": "Navbar Scroll Color Change 17", "continuousParameterGroups": [{ "id": "a-62-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-62-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "62b5d0f1b25b1b9863a8012f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-62-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62b5d0f1b25b1b9863a8012f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-62-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62b5d0f1b25b1b9863a8012f|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-63": { "id": "a-63", "title": "AP CTA Text Scroll 21", "actionItemGroups": [{ "actionItems": [{ "id": "a-63-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 240000, "target": { "id": "62caecf5aeebe9b9b85ee696|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 2880, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-63-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "62caecf5aeebe9b9b85ee696|42a09368-28ee-bd55-21b5-eb6c4a7dd29f" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641494561783 }, "a-64": { "id": "a-64", "title": "Navbar Scroll Color Change 18", "continuousParameterGroups": [{ "id": "a-64-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-64-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "62caecf5aeebe9b9b85ee696|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-64-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62caecf5aeebe9b9b85ee696|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-64-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62caecf5aeebe9b9b85ee696|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-65": { "id": "a-65", "title": "Contact Round Text Scroll 2", "actionItemGroups": [{ "actionItems": [{ "id": "a-65-n", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 360000, "target": { "id": "62ecf7073da29e6c30f9a933|8d827ff1-eb0d-4f3d-47e8-76dbd128651d" }, "zValue": 3600, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }, { "actionItems": [{ "id": "a-65-n-2", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "id": "62ecf7073da29e6c30f9a933|8d827ff1-eb0d-4f3d-47e8-76dbd128651d" }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641511551382 }, "a-66": { "id": "a-66", "title": "Navbar Scroll Color Change 19", "continuousParameterGroups": [{ "id": "a-66-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 14, "actionItems": [{ "id": "a-66-n", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": [0.25, 0.25, 0.75, 0.75], "duration": 500, "target": { "id": "62ecf7073da29e6c30f9a933|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 0 } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-66-n-2", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62ecf7073da29e6c30f9a933|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-66-n-3", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "62ecf7073da29e6c30f9a933|b7f73d03-2ab4-d243-8c73-87d1293a679d" }, "globalSwatchId": "5c995b1a", "rValue": 249, "bValue": 240, "gValue": 245, "aValue": 1 } }] }] }], "createdOn": 1641969627445 }, "a-67": { "id": "a-67", "title": "Navbar Navlink Hover 4", "actionItemGroups": [{ "actionItems": [{ "id": "a-67-n", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "none" } }, { "id": "a-67-n-2", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": 1, "unit": "" } }, { "id": "a-67-n-3", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": "block" } }, { "id": "a-67-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-67-n-5", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "block" } }, { "id": "a-67-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-67-n-7", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "SIBLINGS", "selector": ".menu-graphics-block", "selectorGuids": ["91243b22-b831-adb5-2b65-024d328d3669"] }, "value": "none" } }, { "id": "a-67-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 1, "unit": "" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1641568756501 }, "a-68": { "id": "a-68", "title": "Navbar Navlink Hover Out 4", "actionItemGroups": [{ "actionItems": [{ "id": "a-68-n", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-68-n-2", "actionTypeId": "GENERAL_DISPLAY", "config": { "delay": 0, "easing": "", "duration": 0, "target": { "useEventTarget": "CHILDREN", "selector": ".nn-image", "selectorGuids": ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"] }, "value": "none" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1641568756501 }, "a-35": { "id": "a-35", "title": "Inner Menu DD Opens", "actionItemGroups": [{ "actionItems": [{ "id": "a-35-n", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-inne-bottom", "selectorGuids": ["0d674c30-40d3-6615-0497-4aafdfdcd80a"] }, "heightValue": 0, "widthUnit": "PX", "heightUnit": "%", "locked": false } }, { "id": "a-35-n-2", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-inne-bottom", "selectorGuids": ["0d674c30-40d3-6615-0497-4aafdfdcd80a"] }, "value": 0, "unit": "" } }] }, { "actionItems": [{ "id": "a-35-n-3", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "ease", "duration": 400, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-inne-bottom", "selectorGuids": ["0d674c30-40d3-6615-0497-4aafdfdcd80a"] }, "widthUnit": "PX", "heightUnit": "AUTO", "locked": false } }, { "id": "a-35-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "ease", "duration": 400, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-inne-bottom", "selectorGuids": ["0d674c30-40d3-6615-0497-4aafdfdcd80a"] }, "value": 1, "unit": "" } }, { "id": "a-35-n-5", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".bf-icon-img", "selectorGuids": ["9bad0fea-ff6b-4f61-233b-5a5bbb8af985"] }, "zValue": -180, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": true, "createdOn": 1652950794479 }, "a-36": { "id": "a-36", "title": "Inner Menu DD Close", "actionItemGroups": [{ "actionItems": [{ "id": "a-36-n-3", "actionTypeId": "STYLE_SIZE", "config": { "delay": 0, "easing": "ease", "duration": 400, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-inne-bottom", "selectorGuids": ["0d674c30-40d3-6615-0497-4aafdfdcd80a"] }, "heightValue": 0, "widthUnit": "PX", "heightUnit": "%", "locked": false } }, { "id": "a-36-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "ease", "duration": 400, "target": { "useEventTarget": "CHILDREN", "selector": ".nav2-dd-inne-bottom", "selectorGuids": ["0d674c30-40d3-6615-0497-4aafdfdcd80a"] }, "value": 0, "unit": "" } }, { "id": "a-36-n-5", "actionTypeId": "TRANSFORM_ROTATE", "config": { "delay": 0, "easing": "", "duration": 200, "target": { "useEventTarget": "CHILDREN", "selector": ".bf-icon-img", "selectorGuids": ["9bad0fea-ff6b-4f61-233b-5a5bbb8af985"] }, "zValue": 0, "xUnit": "DEG", "yUnit": "DEG", "zUnit": "deg" } }] }], "useFirstGroupAsInitialState": false, "createdOn": 1652950794479 }, "a-16": { "id": "a-16", "title": "Page Scroll Animation", "continuousParameterGroups": [{ "id": "a-16-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 0, "actionItems": [{ "id": "a-16-n", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "61d74482f739931c9566ae16|8e610fe2-d7f5-da04-2d4f-065bc42d0cce" }, "value": 1, "unit": "" } }, { "id": "a-16-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-1", "selectorGuids": ["22b1de8d-9bfd-f762-3d1f-07a8df2957f0"] }, "value": 1, "unit": "" } }] }, { "keyframe": 2, "actionItems": [{ "id": "a-16-n-3", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "61d74482f739931c9566ae16|8e610fe2-d7f5-da04-2d4f-065bc42d0cce" }, "value": 0, "unit": "" } }, { "id": "a-16-n-15", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "61d74482f739931c9566ae16|67d7971a-c075-0671-f1b6-6f0ba8f80614" }, "value": 1, "unit": "" } }] }, { "keyframe": 24, "actionItems": [{ "id": "a-16-n-5", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-1", "selectorGuids": ["22b1de8d-9bfd-f762-3d1f-07a8df2957f0"] }, "value": 1, "unit": "" } }] }, { "keyframe": 25, "actionItems": [{ "id": "a-16-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-1", "selectorGuids": ["22b1de8d-9bfd-f762-3d1f-07a8df2957f0"] }, "value": 0, "unit": "" } }, { "id": "a-16-n-7", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-2", "selectorGuids": ["e4bf519d-becf-dcc0-adfd-94c7658ea570"] }, "value": 1, "unit": "" } }] }, { "keyframe": 49, "actionItems": [{ "id": "a-16-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-2", "selectorGuids": ["e4bf519d-becf-dcc0-adfd-94c7658ea570"] }, "value": 1, "unit": "" } }] }, { "keyframe": 50, "actionItems": [{ "id": "a-16-n-9", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-2", "selectorGuids": ["e4bf519d-becf-dcc0-adfd-94c7658ea570"] }, "value": 0, "unit": "" } }, { "id": "a-16-n-11", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-3", "selectorGuids": ["beda46f9-cda7-ae0f-d3ac-5c055f04f315"] }, "value": 1, "unit": "" } }] }, { "keyframe": 74, "actionItems": [{ "id": "a-16-n-10", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-3", "selectorGuids": ["beda46f9-cda7-ae0f-d3ac-5c055f04f315"] }, "value": 1, "unit": "" } }] }, { "keyframe": 75, "actionItems": [{ "id": "a-16-n-12", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".hiw-3", "selectorGuids": ["beda46f9-cda7-ae0f-d3ac-5c055f04f315"] }, "value": 0, "unit": "" } }] }, { "keyframe": 79, "actionItems": [{ "id": "a-16-n-13", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "61d74482f739931c9566ae16|4e6ef68d-76a2-5420-b089-b3ff04f53360" }, "value": 1, "unit": "" } }, { "id": "a-16-n-16", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "61d74482f739931c9566ae16|67d7971a-c075-0671-f1b6-6f0ba8f80614" }, "value": 0, "unit": "" } }] }, { "keyframe": 90, "actionItems": [{ "id": "a-16-n-14", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "id": "61d74482f739931c9566ae16|4e6ef68d-76a2-5420-b089-b3ff04f53360" }, "value": 0, "unit": "" } }] }] }], "createdOn": 1641650356908 }, "fadeIn": { "id": "fadeIn", "useFirstGroupAsInitialState": true, "actionItemGroups": [{ "actionItems": [{ "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "duration": 0, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "value": 0 } }] }, { "actionItems": [{ "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "outQuart", "duration": 1000, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "value": 1 } }] }] }, "slideInBottom": { "id": "slideInBottom", "useFirstGroupAsInitialState": true, "actionItemGroups": [{ "actionItems": [{ "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "duration": 0, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "value": 0 } }] }, { "actionItems": [{ "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "duration": 0, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "xValue": 0, "yValue": 100, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "actionItems": [{ "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "outQuart", "duration": 1000, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "xValue": 0, "yValue": 0, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "outQuart", "duration": 1000, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "value": 1 } }] }] }, "growIn": { "id": "growIn", "useFirstGroupAsInitialState": true, "actionItemGroups": [{ "actionItems": [{ "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "duration": 0, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "value": 0 } }] }, { "actionItems": [{ "actionTypeId": "TRANSFORM_SCALE", "config": { "delay": 0, "duration": 0, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "xValue": 0.7500000000000001, "yValue": 0.7500000000000001 } }] }, { "actionItems": [{ "actionTypeId": "TRANSFORM_SCALE", "config": { "delay": 0, "easing": "outQuart", "duration": 1000, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "xValue": 1, "yValue": 1 } }, { "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "outQuart", "duration": 1000, "target": { "id": "N/A", "appliesTo": "TRIGGER_ELEMENT", "useEventTarget": true }, "value": 1 } }] }] } }, "site": { "mediaQueries": [{ "key": "main", "min": 992, "max": 10000 }, { "key": "medium", "min": 768, "max": 991 }, { "key": "small", "min": 480, "max": 767 }, { "key": "tiny", "min": 0, "max": 479 }] } }
-);
+Webflow.require("ix2").init({
+  events: {
+    "e-2": {
+      id: "e-2",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5b1b8dfe7f93d320dfa70",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5b1b8dfe7f93d320dfa70",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641395177279,
+    },
+    "e-4": {
+      id: "e-4",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-3",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5dbdbe39827a12d4c97de",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5dbdbe39827a12d4c97de",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641405404037,
+    },
+    "e-9": {
+      id: "e-9",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "MOUSE_CLICK",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-2",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-10",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5dbdbe39827a12d4c97de|58c34b7b-db3e-3849-9826-d7f06738301d",
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5dbdbe39827a12d4c97de|58c34b7b-db3e-3849-9826-d7f06738301d",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641406575818,
+    },
+    "e-11": {
+      id: "e-11",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "MOUSE_CLICK",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-2",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-12",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5dbdbe39827a12d4c97de|a72dbaa2-a056-4e47-4322-74df4bbfe921",
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5dbdbe39827a12d4c97de|a72dbaa2-a056-4e47-4322-74df4bbfe921",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641407171222,
+    },
+    "e-14": {
+      id: "e-14",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-3",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-13",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5b1b8dfe7f93d320dfa70",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5b1b8dfe7f93d320dfa70",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641494553897,
+    },
+    "e-16": {
+      id: "e-16",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-15",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d74482f739931c9566ae16",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d74482f739931c9566ae16",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641497731387,
+    },
+    "e-18": {
+      id: "e-18",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-4",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-17",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d74482f739931c9566ae16",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d74482f739931c9566ae16",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641497731387,
+    },
+    "e-19": {
+      id: "e-19",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "TAB_ACTIVE",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-5",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-20",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".hiw-tablink",
+        originalId:
+          "61d74482f739931c9566ae16|5788ff3c-cde6-b912-6007-e920c91239c0",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".hiw-tablink",
+          originalId:
+            "61d74482f739931c9566ae16|5788ff3c-cde6-b912-6007-e920c91239c0",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641499887089,
+    },
+    "e-20": {
+      id: "e-20",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "TAB_INACTIVE",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-6",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-19",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".hiw-tablink",
+        originalId:
+          "61d74482f739931c9566ae16|5788ff3c-cde6-b912-6007-e920c91239c0",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".hiw-tablink",
+          originalId:
+            "61d74482f739931c9566ae16|5788ff3c-cde6-b912-6007-e920c91239c0",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641499887090,
+    },
+    "e-25": {
+      id: "e-25",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-11",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-24",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d77446582efc7406574749",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d77446582efc7406574749",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641511539813,
+    },
+    "e-27": {
+      id: "e-27",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-26",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d7fe8c48f0435998bd8c8e",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d7fe8c48f0435998bd8c8e",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641545356907,
+    },
+    "e-29": {
+      id: "e-29",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-12",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-28",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d7fe8c48f0435998bd8c8e",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d7fe8c48f0435998bd8c8e",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641545356907,
+    },
+    "e-30": {
+      id: "e-30",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_OVER",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-13",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-31",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".navbar-navlink",
+        originalId: "b7f73d03-2ab4-d243-8c73-87d1293a67aa",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".navbar-navlink",
+          originalId: "b7f73d03-2ab4-d243-8c73-87d1293a67aa",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641568747687,
+    },
+    "e-31": {
+      id: "e-31",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_OUT",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-14",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-30",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".navbar-navlink",
+        originalId: "b7f73d03-2ab4-d243-8c73-87d1293a67aa",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".navbar-navlink",
+          originalId: "b7f73d03-2ab4-d243-8c73-87d1293a67aa",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641568747688,
+    },
+    "e-33": {
+      id: "e-33",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-17", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5b1b8dfe7f93d320dfa70",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5b1b8dfe7f93d320dfa70",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-17-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1641969619806,
+    },
+    "e-35": {
+      id: "e-35",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-34",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5b1b8dfe7f93d320dfa70",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5b1b8dfe7f93d320dfa70",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641970289886,
+    },
+    "e-37": {
+      id: "e-37",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-36",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5dbdbe39827a12d4c97de",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5dbdbe39827a12d4c97de",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641970456879,
+    },
+    "e-38": {
+      id: "e-38",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_OVER",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-19",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-39",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5dbdbe39827a12d4c97de|b5b91bd2-2200-0033-d273-680744bd2f12",
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5dbdbe39827a12d4c97de|b5b91bd2-2200-0033-d273-680744bd2f12",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641970853623,
+    },
+    "e-40": {
+      id: "e-40",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-17", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d77446582efc7406574749",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d77446582efc7406574749",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-17-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1641972705855,
+    },
+    "e-42": {
+      id: "e-42",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-17", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d5dbdbe39827a12d4c97de",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d5dbdbe39827a12d4c97de",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-17-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1641972885821,
+    },
+    "e-43": {
+      id: "e-43",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-17", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d7fe8c48f0435998bd8c8e",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d7fe8c48f0435998bd8c8e",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-17-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1641972907599,
+    },
+    "e-44": {
+      id: "e-44",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-17", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d827c641a1b329c9fb1c6b",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d827c641a1b329c9fb1c6b",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-17-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1641972928978,
+    },
+    "e-46": {
+      id: "e-46",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-45",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d74482f739931c9566ae16",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d74482f739931c9566ae16",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1641997537962,
+    },
+    "e-49": {
+      id: "e-49",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-48",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "625f9ed0df90643aa893049f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "625f9ed0df90643aa893049f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650433746314,
+    },
+    "e-51": {
+      id: "e-51",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-21",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-50",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "625f9ed0df90643aa893049f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "625f9ed0df90643aa893049f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650433746314,
+    },
+    "e-52": {
+      id: "e-52",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-22", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "625f9ed0df90643aa893049f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "625f9ed0df90643aa893049f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-22-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1650433746314,
+    },
+    "e-54": {
+      id: "e-54",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-53",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "625f9ed0df90643aa893049f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "625f9ed0df90643aa893049f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650433746314,
+    },
+    "e-56": {
+      id: "e-56",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-55",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6260eb6b1e4ab3cc80f08000",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6260eb6b1e4ab3cc80f08000",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650518892218,
+    },
+    "e-58": {
+      id: "e-58",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-23",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-57",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6260eb6b1e4ab3cc80f08000",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6260eb6b1e4ab3cc80f08000",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650518892218,
+    },
+    "e-59": {
+      id: "e-59",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-24", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6260eb6b1e4ab3cc80f08000",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6260eb6b1e4ab3cc80f08000",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-24-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1650518892218,
+    },
+    "e-61": {
+      id: "e-61",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-60",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6260eb6b1e4ab3cc80f08000",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6260eb6b1e4ab3cc80f08000",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650518892218,
+    },
+    "e-63": {
+      id: "e-63",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-62",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6261148cc05d44023277748d",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6261148cc05d44023277748d",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650529423972,
+    },
+    "e-65": {
+      id: "e-65",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-25",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-64",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6261148cc05d44023277748d",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6261148cc05d44023277748d",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650529423972,
+    },
+    "e-66": {
+      id: "e-66",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-26", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6261148cc05d44023277748d",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6261148cc05d44023277748d",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-26-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1650529423972,
+    },
+    "e-68": {
+      id: "e-68",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-67",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6261148cc05d44023277748d",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6261148cc05d44023277748d",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650529423972,
+    },
+    "e-70": {
+      id: "e-70",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-69",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62611c556d63271a0baab12f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62611c556d63271a0baab12f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650531417393,
+    },
+    "e-72": {
+      id: "e-72",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-27",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-71",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62611c556d63271a0baab12f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62611c556d63271a0baab12f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650531417393,
+    },
+    "e-73": {
+      id: "e-73",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-28", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62611c556d63271a0baab12f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62611c556d63271a0baab12f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-28-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1650531417393,
+    },
+    "e-75": {
+      id: "e-75",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-74",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62611c556d63271a0baab12f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62611c556d63271a0baab12f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1650531417393,
+    },
+    "e-76": {
+      id: "e-76",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "MOUSE_OVER",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-29",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-77",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".navbar-navlink",
+        originalId:
+          "6285102b0c117a0bb9bb0a15|43eb1bd6-6562-f5f4-5f0c-2982d1a84c36",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".navbar-navlink",
+          originalId:
+            "6285102b0c117a0bb9bb0a15|43eb1bd6-6562-f5f4-5f0c-2982d1a84c36",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652887607205,
+    },
+    "e-77": {
+      id: "e-77",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "MOUSE_OUT",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-30",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-76",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".navbar-navlink",
+        originalId:
+          "6285102b0c117a0bb9bb0a15|43eb1bd6-6562-f5f4-5f0c-2982d1a84c36",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".navbar-navlink",
+          originalId:
+            "6285102b0c117a0bb9bb0a15|43eb1bd6-6562-f5f4-5f0c-2982d1a84c36",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652887607205,
+    },
+    "e-78": {
+      id: "e-78",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "MOUSE_OVER",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-31",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-79",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".navbar-navlink",
+        originalId:
+          "6285102b0c117a0bb9bb0a15|fddeba66-74d5-1bc2-de0b-6fb9432babd6",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".navbar-navlink",
+          originalId:
+            "6285102b0c117a0bb9bb0a15|fddeba66-74d5-1bc2-de0b-6fb9432babd6",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652887859061,
+    },
+    "e-79": {
+      id: "e-79",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "MOUSE_OUT",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-32",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-78",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".navbar-navlink",
+        originalId:
+          "6285102b0c117a0bb9bb0a15|fddeba66-74d5-1bc2-de0b-6fb9432babd6",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".navbar-navlink",
+          originalId:
+            "6285102b0c117a0bb9bb0a15|fddeba66-74d5-1bc2-de0b-6fb9432babd6",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652887859061,
+    },
+    "e-80": {
+      id: "e-80",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_OVER",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-33",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-81",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".nav2-dropdown-wrapper",
+        originalId: "c50b118c-2b56-2b06-5b8f-045817efc8b6",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".nav2-dropdown-wrapper",
+          originalId: "c50b118c-2b56-2b06-5b8f-045817efc8b6",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652889781404,
+    },
+    "e-81": {
+      id: "e-81",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_OUT",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-34",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-80",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".nav2-dropdown-wrapper",
+        originalId: "c50b118c-2b56-2b06-5b8f-045817efc8b6",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".nav2-dropdown-wrapper",
+          originalId: "c50b118c-2b56-2b06-5b8f-045817efc8b6",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652889781406,
+    },
+    "e-85": {
+      id: "e-85",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-84",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b2ef332555df0deb2df",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b2ef332555df0deb2df",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951854687,
+    },
+    "e-87": {
+      id: "e-87",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-37",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-86",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b2ef332555df0deb2df",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b2ef332555df0deb2df",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951854687,
+    },
+    "e-88": {
+      id: "e-88",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-38", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b2ef332555df0deb2df",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b2ef332555df0deb2df",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-38-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1652951854687,
+    },
+    "e-90": {
+      id: "e-90",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-89",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b2ef332555df0deb2df",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b2ef332555df0deb2df",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951854687,
+    },
+    "e-92": {
+      id: "e-92",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-91",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b5a98366b193c06f733",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b5a98366b193c06f733",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951898800,
+    },
+    "e-94": {
+      id: "e-94",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-39",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-93",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b5a98366b193c06f733",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b5a98366b193c06f733",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951898800,
+    },
+    "e-95": {
+      id: "e-95",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-40", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b5a98366b193c06f733",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b5a98366b193c06f733",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-40-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1652951898800,
+    },
+    "e-97": {
+      id: "e-97",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-96",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b5a98366b193c06f733",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b5a98366b193c06f733",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951898800,
+    },
+    "e-99": {
+      id: "e-99",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-98",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b6987c43c06800666a6",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b6987c43c06800666a6",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951913577,
+    },
+    "e-101": {
+      id: "e-101",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-41",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-100",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b6987c43c06800666a6",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b6987c43c06800666a6",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951913577,
+    },
+    "e-102": {
+      id: "e-102",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-42", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b6987c43c06800666a6",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b6987c43c06800666a6",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-42-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1652951913577,
+    },
+    "e-104": {
+      id: "e-104",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-103",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62860b6987c43c06800666a6",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62860b6987c43c06800666a6",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1652951913577,
+    },
+    "e-106": {
+      id: "e-106",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-105",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628d1de02974bcfbc784ac8a",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628d1de02974bcfbc784ac8a",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653415393069,
+    },
+    "e-108": {
+      id: "e-108",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-43",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-107",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628d1de02974bcfbc784ac8a",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628d1de02974bcfbc784ac8a",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653415393069,
+    },
+    "e-109": {
+      id: "e-109",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-44", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628d1de02974bcfbc784ac8a",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628d1de02974bcfbc784ac8a",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-44-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1653415393069,
+    },
+    "e-111": {
+      id: "e-111",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-110",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628d1de02974bcfbc784ac8a",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628d1de02974bcfbc784ac8a",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653415393069,
+    },
+    "e-113": {
+      id: "e-113",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-112",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e373a3d762f4dd90b7d18",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e373a3d762f4dd90b7d18",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653487419174,
+    },
+    "e-115": {
+      id: "e-115",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-45",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-114",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e373a3d762f4dd90b7d18",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e373a3d762f4dd90b7d18",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653487419174,
+    },
+    "e-116": {
+      id: "e-116",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-46", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e373a3d762f4dd90b7d18",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e373a3d762f4dd90b7d18",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-46-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1653487419174,
+    },
+    "e-118": {
+      id: "e-118",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-117",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e373a3d762f4dd90b7d18",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e373a3d762f4dd90b7d18",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653487419174,
+    },
+    "e-120": {
+      id: "e-120",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-119",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e48e41b1b635be948b4cb",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e48e41b1b635be948b4cb",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653491941011,
+    },
+    "e-122": {
+      id: "e-122",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-47",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-121",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e48e41b1b635be948b4cb",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e48e41b1b635be948b4cb",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653491941011,
+    },
+    "e-123": {
+      id: "e-123",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-48", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e48e41b1b635be948b4cb",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e48e41b1b635be948b4cb",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-48-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1653491941011,
+    },
+    "e-125": {
+      id: "e-125",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-124",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e48e41b1b635be948b4cb",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e48e41b1b635be948b4cb",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653491941011,
+    },
+    "e-127": {
+      id: "e-127",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-126",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e8fe78cf219f504eb1ba1",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e8fe78cf219f504eb1ba1",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653510120606,
+    },
+    "e-129": {
+      id: "e-129",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-49",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-128",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e8fe78cf219f504eb1ba1",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e8fe78cf219f504eb1ba1",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653510120606,
+    },
+    "e-130": {
+      id: "e-130",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-50", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e8fe78cf219f504eb1ba1",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e8fe78cf219f504eb1ba1",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-50-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1653510120606,
+    },
+    "e-132": {
+      id: "e-132",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-131",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628e8fe78cf219f504eb1ba1",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628e8fe78cf219f504eb1ba1",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653510120606,
+    },
+    "e-134": {
+      id: "e-134",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-133",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f48654595732ccf76ead1",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f48654595732ccf76ead1",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653557350511,
+    },
+    "e-136": {
+      id: "e-136",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-51",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-135",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f48654595732ccf76ead1",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f48654595732ccf76ead1",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653557350511,
+    },
+    "e-137": {
+      id: "e-137",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-52", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f48654595732ccf76ead1",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f48654595732ccf76ead1",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-52-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1653557350511,
+    },
+    "e-139": {
+      id: "e-139",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-138",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f48654595732ccf76ead1",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f48654595732ccf76ead1",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653557350511,
+    },
+    "e-141": {
+      id: "e-141",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-140",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f6e301760e831f33adacd",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f6e301760e831f33adacd",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653567024878,
+    },
+    "e-143": {
+      id: "e-143",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-53",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-142",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f6e301760e831f33adacd",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f6e301760e831f33adacd",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653567024878,
+    },
+    "e-144": {
+      id: "e-144",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-54", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f6e301760e831f33adacd",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f6e301760e831f33adacd",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-54-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1653567024878,
+    },
+    "e-146": {
+      id: "e-146",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-145",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f6e301760e831f33adacd",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f6e301760e831f33adacd",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653567024878,
+    },
+    "e-148": {
+      id: "e-148",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-147",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f90e99b87dbfe75db079e",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f90e99b87dbfe75db079e",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653575913757,
+    },
+    "e-150": {
+      id: "e-150",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-55",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-149",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f90e99b87dbfe75db079e",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f90e99b87dbfe75db079e",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653575913757,
+    },
+    "e-151": {
+      id: "e-151",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-56", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f90e99b87dbfe75db079e",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f90e99b87dbfe75db079e",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-56-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1653575913757,
+    },
+    "e-153": {
+      id: "e-153",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-152",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "628f90e99b87dbfe75db079e",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "628f90e99b87dbfe75db079e",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653575913757,
+    },
+    "e-154": {
+      id: "e-154",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_CLICK",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-57",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-155",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".gi-top",
+        originalId:
+          "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".gi-top",
+          originalId:
+            "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653576635282,
+    },
+    "e-155": {
+      id: "e-155",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_SECOND_CLICK",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-58",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-154",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".gi-top",
+        originalId:
+          "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".gi-top",
+          originalId:
+            "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1653576635285,
+    },
+    "e-157": {
+      id: "e-157",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-156",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62a1e3cc48b5ad449e2efcf6",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62a1e3cc48b5ad449e2efcf6",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1654776780700,
+    },
+    "e-159": {
+      id: "e-159",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-59",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-158",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62a1e3cc48b5ad449e2efcf6",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62a1e3cc48b5ad449e2efcf6",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1654776780700,
+    },
+    "e-160": {
+      id: "e-160",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-60", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62a1e3cc48b5ad449e2efcf6",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62a1e3cc48b5ad449e2efcf6",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-60-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1654776780700,
+    },
+    "e-162": {
+      id: "e-162",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-161",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62a1e3cc48b5ad449e2efcf6",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62a1e3cc48b5ad449e2efcf6",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1654776780700,
+    },
+    "e-164": {
+      id: "e-164",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-163",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62b5d0f1b25b1b9863a8012f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62b5d0f1b25b1b9863a8012f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1656082674754,
+    },
+    "e-166": {
+      id: "e-166",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-61",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-165",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62b5d0f1b25b1b9863a8012f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62b5d0f1b25b1b9863a8012f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1656082674754,
+    },
+    "e-167": {
+      id: "e-167",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-62", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62b5d0f1b25b1b9863a8012f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62b5d0f1b25b1b9863a8012f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-62-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1656082674754,
+    },
+    "e-169": {
+      id: "e-169",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-168",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62b5d0f1b25b1b9863a8012f",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62b5d0f1b25b1b9863a8012f",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1656082674754,
+    },
+    "e-171": {
+      id: "e-171",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-170",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62caecf5aeebe9b9b85ee696",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62caecf5aeebe9b9b85ee696",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1657466101235,
+    },
+    "e-173": {
+      id: "e-173",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-63",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-172",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62caecf5aeebe9b9b85ee696",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62caecf5aeebe9b9b85ee696",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1657466101235,
+    },
+    "e-174": {
+      id: "e-174",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-64", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62caecf5aeebe9b9b85ee696",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62caecf5aeebe9b9b85ee696",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-64-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1657466101235,
+    },
+    "e-176": {
+      id: "e-176",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-18",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-175",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62caecf5aeebe9b9b85ee696",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62caecf5aeebe9b9b85ee696",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1657466101235,
+    },
+    "e-177": {
+      id: "e-177",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "SCROLL_INTO_VIEW",
+      action: {
+        id: "",
+        actionTypeId: "FADE_EFFECT",
+        instant: false,
+        config: { actionListId: "fadeIn", autoStopEventId: "e-178" },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "6284fce1bd5efb358dc87e56|1bc67c42-448b-86e9-3a7c-355f635c3e7c",
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "6284fce1bd5efb358dc87e56|1bc67c42-448b-86e9-3a7c-355f635c3e7c",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: 0,
+        scrollOffsetUnit: "%",
+        delay: 200,
+        direction: null,
+        effectIn: true,
+      },
+      createdOn: 1657471792513,
+    },
+    "e-179": {
+      id: "e-179",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "SCROLL_INTO_VIEW",
+      action: {
+        id: "",
+        actionTypeId: "FADE_EFFECT",
+        instant: false,
+        config: { actionListId: "fadeIn", autoStopEventId: "e-180" },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".h1",
+        originalId:
+          "625f9ed0df90643aa893049f|4e6ef68d-76a2-5420-b089-b3ff04f53363",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".h1",
+          originalId:
+            "625f9ed0df90643aa893049f|4e6ef68d-76a2-5420-b089-b3ff04f53363",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: 0,
+        scrollOffsetUnit: "%",
+        delay: 100,
+        direction: null,
+        effectIn: true,
+      },
+      createdOn: 1657554188546,
+    },
+    "e-181": {
+      id: "e-181",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "SCROLL_INTO_VIEW",
+      action: {
+        id: "",
+        actionTypeId: "SLIDE_EFFECT",
+        instant: false,
+        config: { actionListId: "slideInBottom", autoStopEventId: "e-182" },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".hero-paragraph",
+        originalId:
+          "625f9ed0df90643aa893049f|a8d48d89-7008-d200-dea4-c4299144c428",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".hero-paragraph",
+          originalId:
+            "625f9ed0df90643aa893049f|a8d48d89-7008-d200-dea4-c4299144c428",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: 0,
+        scrollOffsetUnit: "%",
+        delay: 300,
+        direction: "BOTTOM",
+        effectIn: true,
+      },
+      createdOn: 1657554217546,
+    },
+    "e-183": {
+      id: "e-183",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "SCROLL_INTO_VIEW",
+      action: {
+        id: "",
+        actionTypeId: "GROW_EFFECT",
+        instant: false,
+        config: { actionListId: "growIn", autoStopEventId: "e-184" },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".button",
+        originalId:
+          "625f9ed0df90643aa893049f|4e6ef68d-76a2-5420-b089-b3ff04f53367",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".button",
+          originalId:
+            "625f9ed0df90643aa893049f|4e6ef68d-76a2-5420-b089-b3ff04f53367",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: 0,
+        scrollOffsetUnit: "%",
+        delay: 200,
+        direction: null,
+        effectIn: true,
+      },
+      createdOn: 1657554270780,
+    },
+    "e-186": {
+      id: "e-186",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_FINISH",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-65",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-185",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62ecf7073da29e6c30f9a933",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62ecf7073da29e6c30f9a933",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1659696903281,
+    },
+    "e-187": {
+      id: "e-187",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-66", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "62ecf7073da29e6c30f9a933",
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "62ecf7073da29e6c30f9a933",
+          appliesTo: "PAGE",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-66-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1659696903281,
+    },
+    "e-189": {
+      id: "e-189",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "MOUSE_OVER",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-67",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-190",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".navbar-navlink",
+        originalId: "54fedd4d-a4d5-9d8f-7af5-b901fb64c7c4",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".navbar-navlink",
+          originalId: "54fedd4d-a4d5-9d8f-7af5-b901fb64c7c4",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1664143264182,
+    },
+    "e-190": {
+      id: "e-190",
+      name: "",
+      animationType: "preset",
+      eventTypeId: "MOUSE_OUT",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-68",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-189",
+        },
+      },
+      mediaQueries: ["main"],
+      target: {
+        selector: ".navbar-navlink",
+        originalId: "54fedd4d-a4d5-9d8f-7af5-b901fb64c7c4",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".navbar-navlink",
+          originalId: "54fedd4d-a4d5-9d8f-7af5-b901fb64c7c4",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1664143264182,
+    },
+    "e-191": {
+      id: "e-191",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_CLICK",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-35",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-192",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "c50b118c-2b56-2b06-5b8f-045817efc8e1",
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "c50b118c-2b56-2b06-5b8f-045817efc8e1",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1664145526368,
+    },
+    "e-192": {
+      id: "e-192",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_SECOND_CLICK",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-36",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-191",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "c50b118c-2b56-2b06-5b8f-045817efc8e1",
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "c50b118c-2b56-2b06-5b8f-045817efc8e1",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
+      config: {
+        loop: true,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1664145526372,
+    },
+    "e-193": {
+      id: "e-193",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "SCROLLING_IN_VIEW",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-16", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        id: "61d74482f739931c9566ae16|4e6ef68d-76a2-5420-b089-b3ff04f53360",
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
+      },
+      targets: [
+        {
+          id: "61d74482f739931c9566ae16|4e6ef68d-76a2-5420-b089-b3ff04f53360",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
+      config: [
+        {
+          continuousParameterGroupId: "a-16-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1664215006038,
+    },
+  },
+  actionLists: {
+    "a-18": {
+      id: "a",
+      title: "Headings Scroll",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-n",
+              actionTypeId: "TRANSFORM_MOVE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 24000,
+                target: {
+                  selector: ".scroll-h2",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d366d"],
+                },
+                xValue: -100,
+                xUnit: "%",
+                yUnit: "PX",
+                zUnit: "PX",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-n-2",
+              actionTypeId: "TRANSFORM_MOVE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  selector: ".scroll-h2",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d366d"],
+                },
+                xValue: 0,
+                xUnit: "%",
+                yUnit: "PX",
+                zUnit: "PX",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641395180327,
+    },
+    "a-2": {
+      id: "a-2",
+      title: "Hours Number change",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-2-n",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {},
+                value: "none",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-2-n-2",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {},
+                value: "block",
+              },
+            },
+            {
+              id: "a-2-n-3",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {},
+                value: "none",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1637756875266,
+    },
+    "a-3": {
+      id: "a-3",
+      title: "AP CTA Text Scroll",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-3-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "61d5b1b8dfe7f93d320dfa70|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-3-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "61d5b1b8dfe7f93d320dfa70|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-4": {
+      id: "a-4",
+      title: "AP CTA Text Scroll 2",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-4-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "61d74482f739931c9566ae16|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-4-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "61d74482f739931c9566ae16|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-5": {
+      id: "a-5",
+      title: "How It Works Tab In",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-5-n",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".hiw-tablink-content",
+                  selectorGuids: ["49c3f78b-a794-d67a-a20c-7f57305cc7f4"],
+                },
+                heightValue: 0,
+                widthUnit: "px",
+                heightUnit: "px",
+                locked: false,
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-5-n-3",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 400,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".hiw-tablink-content",
+                  selectorGuids: ["49c3f78b-a794-d67a-a20c-7f57305cc7f4"],
+                },
+                widthUnit: "px",
+                heightUnit: "AUTO",
+                locked: false,
+              },
+            },
+            {
+              id: "a-5-n-5",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".hiw-tablink-icon_block",
+                  selectorGuids: ["3af98e62-4ec1-d164-5fb8-26bb216bd084"],
+                },
+                zValue: 90,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+            {
+              id: "a-5-n-6",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".hti-h",
+                  selectorGuids: ["e338f850-f1fd-d223-4670-d3eee79ceafa"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1641499907531,
+    },
+    "a-6": {
+      id: "a-6",
+      title: "How It Works Tab Out",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-6-n",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 400,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".hiw-tablink-content",
+                  selectorGuids: ["49c3f78b-a794-d67a-a20c-7f57305cc7f4"],
+                },
+                heightValue: 0,
+                widthUnit: "px",
+                heightUnit: "px",
+                locked: false,
+              },
+            },
+            {
+              id: "a-6-n-3",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".hiw-tablink-icon_block",
+                  selectorGuids: ["3af98e62-4ec1-d164-5fb8-26bb216bd084"],
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+            {
+              id: "a-6-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".hti-h",
+                  selectorGuids: ["e338f850-f1fd-d223-4670-d3eee79ceafa"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641499907531,
+    },
+    "a-11": {
+      id: "a-11",
+      title: "Contact Round Text Scroll",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-11-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 360000,
+                target: {
+                  id: "61d77446582efc7406574749|8d827ff1-eb0d-4f3d-47e8-76dbd128651d",
+                },
+                zValue: 3600,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-11-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "61d77446582efc7406574749|8d827ff1-eb0d-4f3d-47e8-76dbd128651d",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641511551382,
+    },
+    "a-12": {
+      id: "a-12",
+      title: "AP CTA Text Scroll 4",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-12-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "61d7fe8c48f0435998bd8c8e|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-12-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "61d7fe8c48f0435998bd8c8e|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-13": {
+      id: "a-13",
+      title: "Navbar Navlink Hover",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-13-n",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-13-n-6",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-13-n-5",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: "block",
+              },
+            },
+            {
+              id: "a-13-n-2",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-13-n-3",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "block",
+              },
+            },
+            {
+              id: "a-13-n-7",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-13-n-8",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-13-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1641568756501,
+    },
+    "a-14": {
+      id: "a-14",
+      title: "Navbar Navlink Hover Out",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-14-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-14-n-3",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "none",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641568756501,
+    },
+    "a-17": {
+      id: "a-17",
+      title: "Navbar Scroll Color Change",
+      continuousParameterGroups: [
+        {
+          id: "a-17-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-17-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: { id: "b7f73d03-2ab4-d243-8c73-87d1293a679d" },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-17-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: { id: "b7f73d03-2ab4-d243-8c73-87d1293a679d" },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-17-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: { id: "b7f73d03-2ab4-d243-8c73-87d1293a679d" },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    a: {
+      id: "a",
+      title: "Headings Scroll 2",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-n",
+              actionTypeId: "TRANSFORM_MOVE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 24000,
+                target: {
+                  selector: ".scroll-h2-reverse",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d366d"],
+                },
+                xValue: 100,
+                xUnit: "%",
+                yUnit: "PX",
+                zUnit: "PX",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-n-2",
+              actionTypeId: "TRANSFORM_MOVE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  selector: ".scroll-h2-reverse",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d366d"],
+                },
+                xValue: 0,
+                xUnit: "%",
+                yUnit: "PX",
+                zUnit: "PX",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641395180327,
+    },
+    "a-19": {
+      id: "a-19",
+      title: "New Timed Animation",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-19-n",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".color-overlay",
+                  selectorGuids: ["282e3833-0aa5-3e8e-96c0-3c86e43941d8"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-19-n-2",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".color-overlay",
+                  selectorGuids: ["282e3833-0aa5-3e8e-96c0-3c86e43941d8"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1641970857928,
+    },
+    "a-21": {
+      id: "a-21",
+      title: "AP CTA Text Scroll 5",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-21-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "625f9ed0df90643aa893049f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-21-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "625f9ed0df90643aa893049f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-22": {
+      id: "a-22",
+      title: "Navbar Scroll Color Change 2",
+      continuousParameterGroups: [
+        {
+          id: "a-22-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-22-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "625f9ed0df90643aa893049f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-22-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "625f9ed0df90643aa893049f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-22-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "625f9ed0df90643aa893049f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-23": {
+      id: "a-23",
+      title: "AP CTA Text Scroll 6",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-23-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "6260eb6b1e4ab3cc80f08000|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-23-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "6260eb6b1e4ab3cc80f08000|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-24": {
+      id: "a-24",
+      title: "Navbar Scroll Color Change 3",
+      continuousParameterGroups: [
+        {
+          id: "a-24-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-24-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "6260eb6b1e4ab3cc80f08000|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-24-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "6260eb6b1e4ab3cc80f08000|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-24-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "6260eb6b1e4ab3cc80f08000|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-25": {
+      id: "a-25",
+      title: "AP CTA Text Scroll 7",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-25-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "6261148cc05d44023277748d|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-25-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "6261148cc05d44023277748d|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-26": {
+      id: "a-26",
+      title: "Navbar Scroll Color Change 4",
+      continuousParameterGroups: [
+        {
+          id: "a-26-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-26-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "6261148cc05d44023277748d|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-26-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "6261148cc05d44023277748d|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-26-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "6261148cc05d44023277748d|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-27": {
+      id: "a-27",
+      title: "AP CTA Text Scroll 8",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-27-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "62611c556d63271a0baab12f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-27-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "62611c556d63271a0baab12f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-28": {
+      id: "a-28",
+      title: "Navbar Scroll Color Change 5",
+      continuousParameterGroups: [
+        {
+          id: "a-28-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-28-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "62611c556d63271a0baab12f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-28-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62611c556d63271a0baab12f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-28-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62611c556d63271a0baab12f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-29": {
+      id: "a-29",
+      title: "Navbar Navlink Hover 2",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-29-n",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-29-n-2",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-29-n-3",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: "block",
+              },
+            },
+            {
+              id: "a-29-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-29-n-5",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "block",
+              },
+            },
+            {
+              id: "a-29-n-6",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-29-n-7",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-29-n-8",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1641568756501,
+    },
+    "a-30": {
+      id: "a-30",
+      title: "Navbar Navlink Hover Out 2",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-30-n",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-30-n-2",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "none",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641568756501,
+    },
+    "a-31": {
+      id: "a-31",
+      title: "Navbar Navlink Hover 3",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-31-n",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-31-n-2",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-31-n-3",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: "block",
+              },
+            },
+            {
+              id: "a-31-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-31-n-5",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "block",
+              },
+            },
+            {
+              id: "a-31-n-6",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-31-n-7",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-31-n-8",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1641568756501,
+    },
+    "a-32": {
+      id: "a-32",
+      title: "Navbar Navlink Hover Out 3",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-32-n",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-32-n-2",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "none",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641568756501,
+    },
+    "a-33": {
+      id: "a-33",
+      title: "Nav2 Hover",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-33-n",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-links-wrapper",
+                  selectorGuids: ["04f7aaff-ac67-9be5-5609-496c546fd01f"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-33-n-2",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-links-wrapper",
+                  selectorGuids: ["04f7aaff-ac67-9be5-5609-496c546fd01f"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-33-n-3",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 100,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-links-wrapper",
+                  selectorGuids: ["04f7aaff-ac67-9be5-5609-496c546fd01f"],
+                },
+                value: "flex",
+              },
+            },
+            {
+              id: "a-33-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 100,
+                easing: "ease",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-links-wrapper",
+                  selectorGuids: ["04f7aaff-ac67-9be5-5609-496c546fd01f"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-33-n-5",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 100,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-icon",
+                  selectorGuids: ["2b4ab39f-97ef-9ca4-844b-bf768ae15d30"],
+                },
+                zValue: -180,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1652889786713,
+    },
+    "a-34": {
+      id: "a-34",
+      title: "Nav2 Hover Out",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-34-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 200,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-links-wrapper",
+                  selectorGuids: ["04f7aaff-ac67-9be5-5609-496c546fd01f"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+            {
+              id: "a-34-n-5",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 200,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-icon",
+                  selectorGuids: ["2b4ab39f-97ef-9ca4-844b-bf768ae15d30"],
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-34-n-3",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-links-wrapper",
+                  selectorGuids: ["04f7aaff-ac67-9be5-5609-496c546fd01f"],
+                },
+                value: "none",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1652889786713,
+    },
+    "a-37": {
+      id: "a-37",
+      title: "AP CTA Text Scroll 9",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-37-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "62860b2ef332555df0deb2df|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-37-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "62860b2ef332555df0deb2df|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-38": {
+      id: "a-38",
+      title: "Navbar Scroll Color Change 6",
+      continuousParameterGroups: [
+        {
+          id: "a-38-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-38-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "62860b2ef332555df0deb2df|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-38-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62860b2ef332555df0deb2df|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-38-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62860b2ef332555df0deb2df|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-39": {
+      id: "a-39",
+      title: "AP CTA Text Scroll 10",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-39-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "62860b5a98366b193c06f733|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-39-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "62860b5a98366b193c06f733|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-40": {
+      id: "a-40",
+      title: "Navbar Scroll Color Change 7",
+      continuousParameterGroups: [
+        {
+          id: "a-40-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-40-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "62860b5a98366b193c06f733|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-40-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62860b5a98366b193c06f733|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-40-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62860b5a98366b193c06f733|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-41": {
+      id: "a-41",
+      title: "AP CTA Text Scroll 11",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-41-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "62860b6987c43c06800666a6|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-41-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "62860b6987c43c06800666a6|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-42": {
+      id: "a-42",
+      title: "Navbar Scroll Color Change 8",
+      continuousParameterGroups: [
+        {
+          id: "a-42-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-42-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "62860b6987c43c06800666a6|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-42-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62860b6987c43c06800666a6|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-42-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62860b6987c43c06800666a6|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-43": {
+      id: "a-43",
+      title: "AP CTA Text Scroll 12",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-43-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "628d1de02974bcfbc784ac8a|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-43-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "628d1de02974bcfbc784ac8a|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-44": {
+      id: "a-44",
+      title: "Navbar Scroll Color Change 9",
+      continuousParameterGroups: [
+        {
+          id: "a-44-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-44-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "628d1de02974bcfbc784ac8a|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-44-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628d1de02974bcfbc784ac8a|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-44-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628d1de02974bcfbc784ac8a|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-45": {
+      id: "a-45",
+      title: "AP CTA Text Scroll 13",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-45-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "628e373a3d762f4dd90b7d18|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-45-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "628e373a3d762f4dd90b7d18|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-46": {
+      id: "a-46",
+      title: "Navbar Scroll Color Change 10",
+      continuousParameterGroups: [
+        {
+          id: "a-46-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-46-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "628e373a3d762f4dd90b7d18|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-46-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628e373a3d762f4dd90b7d18|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-46-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628e373a3d762f4dd90b7d18|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-47": {
+      id: "a-47",
+      title: "AP CTA Text Scroll 14",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-47-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "628e48e41b1b635be948b4cb|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-47-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "628e48e41b1b635be948b4cb|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-48": {
+      id: "a-48",
+      title: "Navbar Scroll Color Change 11",
+      continuousParameterGroups: [
+        {
+          id: "a-48-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-48-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "628e48e41b1b635be948b4cb|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-48-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628e48e41b1b635be948b4cb|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-48-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628e48e41b1b635be948b4cb|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-49": {
+      id: "a-49",
+      title: "AP CTA Text Scroll 15",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-49-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "628e8fe78cf219f504eb1ba1|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-49-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "628e8fe78cf219f504eb1ba1|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-50": {
+      id: "a-50",
+      title: "Navbar Scroll Color Change 12",
+      continuousParameterGroups: [
+        {
+          id: "a-50-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-50-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "628e8fe78cf219f504eb1ba1|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-50-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628e8fe78cf219f504eb1ba1|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-50-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628e8fe78cf219f504eb1ba1|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-51": {
+      id: "a-51",
+      title: "AP CTA Text Scroll 16",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-51-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "628f48654595732ccf76ead1|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-51-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "628f48654595732ccf76ead1|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-52": {
+      id: "a-52",
+      title: "Navbar Scroll Color Change 13",
+      continuousParameterGroups: [
+        {
+          id: "a-52-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-52-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "628f48654595732ccf76ead1|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-52-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628f48654595732ccf76ead1|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-52-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628f48654595732ccf76ead1|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-53": {
+      id: "a-53",
+      title: "AP CTA Text Scroll 17",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-53-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "628f6e301760e831f33adacd|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-53-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "628f6e301760e831f33adacd|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-54": {
+      id: "a-54",
+      title: "Navbar Scroll Color Change 14",
+      continuousParameterGroups: [
+        {
+          id: "a-54-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-54-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "628f6e301760e831f33adacd|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-54-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628f6e301760e831f33adacd|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-54-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628f6e301760e831f33adacd|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-55": {
+      id: "a-55",
+      title: "AP CTA Text Scroll 18",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-55-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "628f90e99b87dbfe75db079e|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-55-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "628f90e99b87dbfe75db079e|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-56": {
+      id: "a-56",
+      title: "Navbar Scroll Color Change 15",
+      continuousParameterGroups: [
+        {
+          id: "a-56-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-56-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "628f90e99b87dbfe75db079e|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-56-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628f90e99b87dbfe75db079e|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-56-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "628f90e99b87dbfe75db079e|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-57": {
+      id: "a-57",
+      title: "Glossary Open",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-57-n",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-57-n-2",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                heightValue: 0,
+                widthUnit: "PX",
+                heightUnit: "px",
+                locked: false,
+              },
+            },
+            {
+              id: "a-57-n-3",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-57-n-4",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                value: "block",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-57-n-6",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-57-n-5",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 200,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                widthUnit: "PX",
+                heightUnit: "AUTO",
+                locked: false,
+              },
+            },
+            {
+              id: "a-57-n-7",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".gi-top-icon_block",
+                  selectorGuids: ["61ab4bd6-e9a8-4188-e53c-3f4f8475c20d"],
+                },
+                zValue: 180,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+            {
+              id: "a-57-n-8",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".git-v",
+                  selectorGuids: ["2cff7f1a-4a7c-0ff5-70ef-6a100fb9266b"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+            {
+              id: "a-57-n-9",
+              actionTypeId: "STYLE_BACKGROUND_COLOR",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: true,
+                  id: "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7",
+                },
+                globalSwatchId: "792894d9",
+                rValue: 44,
+                bValue: 127,
+                gValue: 194,
+                aValue: 1,
+              },
+            },
+            {
+              id: "a-57-n-10",
+              actionTypeId: "STYLE_TEXT_COLOR",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".gi-top-text",
+                  selectorGuids: ["15aad865-cdcc-cad5-2096-da808a877bca"],
+                },
+                globalSwatchId: "",
+                rValue: 255,
+                bValue: 255,
+                gValue: 255,
+                aValue: 1,
+              },
+            },
+            {
+              id: "a-57-n-11",
+              actionTypeId: "STYLE_BACKGROUND_COLOR",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".git-h",
+                  selectorGuids: ["2b1aaefc-45a1-ad5a-1796-f40fa1a29650"],
+                },
+                globalSwatchId: "",
+                rValue: 255,
+                bValue: 255,
+                gValue: 255,
+                aValue: 1,
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1653576639724,
+    },
+    "a-58": {
+      id: "a-58",
+      title: "Glossary Close",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-58-n-5",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+            {
+              id: "a-58-n-6",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                heightValue: 0,
+                widthUnit: "PX",
+                heightUnit: "px",
+                locked: false,
+              },
+            },
+            {
+              id: "a-58-n-7",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".gi-top-icon_block",
+                  selectorGuids: ["61ab4bd6-e9a8-4188-e53c-3f4f8475c20d"],
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+            {
+              id: "a-58-n-8",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".git-v",
+                  selectorGuids: ["2cff7f1a-4a7c-0ff5-70ef-6a100fb9266b"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-58-n-9",
+              actionTypeId: "STYLE_BACKGROUND_COLOR",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: true,
+                  id: "628f90e99b87dbfe75db079e|e0117aa3-eee3-eada-ab1a-f1b3057673d7",
+                },
+                globalSwatchId: "",
+                rValue: 255,
+                bValue: 255,
+                gValue: 255,
+                aValue: 1,
+              },
+            },
+            {
+              id: "a-58-n-10",
+              actionTypeId: "STYLE_TEXT_COLOR",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".gi-top-text",
+                  selectorGuids: ["15aad865-cdcc-cad5-2096-da808a877bca"],
+                },
+                globalSwatchId: "552a4fbd",
+                rValue: 30,
+                bValue: 43,
+                gValue: 37,
+                aValue: 1,
+              },
+            },
+            {
+              id: "a-58-n-11",
+              actionTypeId: "STYLE_BACKGROUND_COLOR",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 300,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".git-h",
+                  selectorGuids: ["2b1aaefc-45a1-ad5a-1796-f40fa1a29650"],
+                },
+                globalSwatchId: "552a4fbd",
+                rValue: 30,
+                bValue: 43,
+                gValue: 37,
+                aValue: 1,
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-58-n-4",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".gi-bottom",
+                  selectorGuids: ["2f0b17b8-4535-41c1-df5e-69d6a47fff9f"],
+                },
+                value: "none",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1653576639724,
+    },
+    "a-59": {
+      id: "a-59",
+      title: "AP CTA Text Scroll 19",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-59-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "62a1e3cc48b5ad449e2efcf6|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-59-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "62a1e3cc48b5ad449e2efcf6|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-60": {
+      id: "a-60",
+      title: "Navbar Scroll Color Change 16",
+      continuousParameterGroups: [
+        {
+          id: "a-60-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-60-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "62a1e3cc48b5ad449e2efcf6|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-60-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62a1e3cc48b5ad449e2efcf6|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-60-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62a1e3cc48b5ad449e2efcf6|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-61": {
+      id: "a-61",
+      title: "AP CTA Text Scroll 20",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-61-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "62b5d0f1b25b1b9863a8012f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-61-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "62b5d0f1b25b1b9863a8012f|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-62": {
+      id: "a-62",
+      title: "Navbar Scroll Color Change 17",
+      continuousParameterGroups: [
+        {
+          id: "a-62-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-62-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "62b5d0f1b25b1b9863a8012f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-62-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62b5d0f1b25b1b9863a8012f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-62-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62b5d0f1b25b1b9863a8012f|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-63": {
+      id: "a-63",
+      title: "AP CTA Text Scroll 21",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-63-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 240000,
+                target: {
+                  id: "62caecf5aeebe9b9b85ee696|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 2880,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-63-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "62caecf5aeebe9b9b85ee696|42a09368-28ee-bd55-21b5-eb6c4a7dd29f",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641494561783,
+    },
+    "a-64": {
+      id: "a-64",
+      title: "Navbar Scroll Color Change 18",
+      continuousParameterGroups: [
+        {
+          id: "a-64-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-64-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "62caecf5aeebe9b9b85ee696|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-64-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62caecf5aeebe9b9b85ee696|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-64-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62caecf5aeebe9b9b85ee696|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-65": {
+      id: "a-65",
+      title: "Contact Round Text Scroll 2",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-65-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 360000,
+                target: {
+                  id: "62ecf7073da29e6c30f9a933|8d827ff1-eb0d-4f3d-47e8-76dbd128651d",
+                },
+                zValue: 3600,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-65-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  id: "62ecf7073da29e6c30f9a933|8d827ff1-eb0d-4f3d-47e8-76dbd128651d",
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641511551382,
+    },
+    "a-66": {
+      id: "a-66",
+      title: "Navbar Scroll Color Change 19",
+      continuousParameterGroups: [
+        {
+          id: "a-66-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 14,
+              actionItems: [
+                {
+                  id: "a-66-n",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: [0.25, 0.25, 0.75, 0.75],
+                    duration: 500,
+                    target: {
+                      id: "62ecf7073da29e6c30f9a933|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "",
+                    rValue: 0,
+                    bValue: 0,
+                    gValue: 0,
+                    aValue: 0,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 15,
+              actionItems: [
+                {
+                  id: "a-66-n-2",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62ecf7073da29e6c30f9a933|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-66-n-3",
+                  actionTypeId: "STYLE_BACKGROUND_COLOR",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "62ecf7073da29e6c30f9a933|b7f73d03-2ab4-d243-8c73-87d1293a679d",
+                    },
+                    globalSwatchId: "5c995b1a",
+                    rValue: 249,
+                    bValue: 240,
+                    gValue: 245,
+                    aValue: 1,
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641969627445,
+    },
+    "a-67": {
+      id: "a-67",
+      title: "Navbar Navlink Hover 4",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-67-n",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-67-n-2",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-67-n-3",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: "block",
+              },
+            },
+            {
+              id: "a-67-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-67-n-5",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "block",
+              },
+            },
+            {
+              id: "a-67-n-6",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-67-n-7",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "SIBLINGS",
+                  selector: ".menu-graphics-block",
+                  selectorGuids: ["91243b22-b831-adb5-2b65-024d328d3669"],
+                },
+                value: "none",
+              },
+            },
+            {
+              id: "a-67-n-8",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1641568756501,
+    },
+    "a-68": {
+      id: "a-68",
+      title: "Navbar Navlink Hover Out 4",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-68-n",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-68-n-2",
+              actionTypeId: "GENERAL_DISPLAY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 0,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nn-image",
+                  selectorGuids: ["655f63f2-89a9-e9b1-ffd5-24181d635a5e"],
+                },
+                value: "none",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1641568756501,
+    },
+    "a-35": {
+      id: "a-35",
+      title: "Inner Menu DD Opens",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-35-n",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-inne-bottom",
+                  selectorGuids: ["0d674c30-40d3-6615-0497-4aafdfdcd80a"],
+                },
+                heightValue: 0,
+                widthUnit: "PX",
+                heightUnit: "%",
+                locked: false,
+              },
+            },
+            {
+              id: "a-35-n-2",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-inne-bottom",
+                  selectorGuids: ["0d674c30-40d3-6615-0497-4aafdfdcd80a"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-35-n-3",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 400,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-inne-bottom",
+                  selectorGuids: ["0d674c30-40d3-6615-0497-4aafdfdcd80a"],
+                },
+                widthUnit: "PX",
+                heightUnit: "AUTO",
+                locked: false,
+              },
+            },
+            {
+              id: "a-35-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 400,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-inne-bottom",
+                  selectorGuids: ["0d674c30-40d3-6615-0497-4aafdfdcd80a"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-35-n-5",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".bf-icon-img",
+                  selectorGuids: ["9bad0fea-ff6b-4f61-233b-5a5bbb8af985"],
+                },
+                zValue: -180,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: true,
+      createdOn: 1652950794479,
+    },
+    "a-36": {
+      id: "a-36",
+      title: "Inner Menu DD Close",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-36-n-3",
+              actionTypeId: "STYLE_SIZE",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 400,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-inne-bottom",
+                  selectorGuids: ["0d674c30-40d3-6615-0497-4aafdfdcd80a"],
+                },
+                heightValue: 0,
+                widthUnit: "PX",
+                heightUnit: "%",
+                locked: false,
+              },
+            },
+            {
+              id: "a-36-n-4",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "ease",
+                duration: 400,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".nav2-dd-inne-bottom",
+                  selectorGuids: ["0d674c30-40d3-6615-0497-4aafdfdcd80a"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+            {
+              id: "a-36-n-5",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 200,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".bf-icon-img",
+                  selectorGuids: ["9bad0fea-ff6b-4f61-233b-5a5bbb8af985"],
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "deg",
+              },
+            },
+          ],
+        },
+      ],
+      useFirstGroupAsInitialState: false,
+      createdOn: 1652950794479,
+    },
+    "a-16": {
+      id: "a-16",
+      title: "Page Scroll Animation",
+      continuousParameterGroups: [
+        {
+          id: "a-16-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 0,
+              actionItems: [
+                {
+                  id: "a-16-n",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "61d74482f739931c9566ae16|8e610fe2-d7f5-da04-2d4f-065bc42d0cce",
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+                {
+                  id: "a-16-n-4",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-1",
+                      selectorGuids: ["22b1de8d-9bfd-f762-3d1f-07a8df2957f0"],
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 2,
+              actionItems: [
+                {
+                  id: "a-16-n-3",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "61d74482f739931c9566ae16|8e610fe2-d7f5-da04-2d4f-065bc42d0cce",
+                    },
+                    value: 0,
+                    unit: "",
+                  },
+                },
+                {
+                  id: "a-16-n-15",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "61d74482f739931c9566ae16|67d7971a-c075-0671-f1b6-6f0ba8f80614",
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 24,
+              actionItems: [
+                {
+                  id: "a-16-n-5",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-1",
+                      selectorGuids: ["22b1de8d-9bfd-f762-3d1f-07a8df2957f0"],
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 25,
+              actionItems: [
+                {
+                  id: "a-16-n-6",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-1",
+                      selectorGuids: ["22b1de8d-9bfd-f762-3d1f-07a8df2957f0"],
+                    },
+                    value: 0,
+                    unit: "",
+                  },
+                },
+                {
+                  id: "a-16-n-7",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-2",
+                      selectorGuids: ["e4bf519d-becf-dcc0-adfd-94c7658ea570"],
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 49,
+              actionItems: [
+                {
+                  id: "a-16-n-8",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-2",
+                      selectorGuids: ["e4bf519d-becf-dcc0-adfd-94c7658ea570"],
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 50,
+              actionItems: [
+                {
+                  id: "a-16-n-9",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-2",
+                      selectorGuids: ["e4bf519d-becf-dcc0-adfd-94c7658ea570"],
+                    },
+                    value: 0,
+                    unit: "",
+                  },
+                },
+                {
+                  id: "a-16-n-11",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-3",
+                      selectorGuids: ["beda46f9-cda7-ae0f-d3ac-5c055f04f315"],
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 74,
+              actionItems: [
+                {
+                  id: "a-16-n-10",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-3",
+                      selectorGuids: ["beda46f9-cda7-ae0f-d3ac-5c055f04f315"],
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 75,
+              actionItems: [
+                {
+                  id: "a-16-n-12",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".hiw-3",
+                      selectorGuids: ["beda46f9-cda7-ae0f-d3ac-5c055f04f315"],
+                    },
+                    value: 0,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 79,
+              actionItems: [
+                {
+                  id: "a-16-n-13",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "61d74482f739931c9566ae16|4e6ef68d-76a2-5420-b089-b3ff04f53360",
+                    },
+                    value: 1,
+                    unit: "",
+                  },
+                },
+                {
+                  id: "a-16-n-16",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "61d74482f739931c9566ae16|67d7971a-c075-0671-f1b6-6f0ba8f80614",
+                    },
+                    value: 0,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 90,
+              actionItems: [
+                {
+                  id: "a-16-n-14",
+                  actionTypeId: "STYLE_OPACITY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      id: "61d74482f739931c9566ae16|4e6ef68d-76a2-5420-b089-b3ff04f53360",
+                    },
+                    value: 0,
+                    unit: "",
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1641650356908,
+    },
+    fadeIn: {
+      id: "fadeIn",
+      useFirstGroupAsInitialState: true,
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                duration: 0,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                value: 0,
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "outQuart",
+                duration: 1000,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                value: 1,
+              },
+            },
+          ],
+        },
+      ],
+    },
+    slideInBottom: {
+      id: "slideInBottom",
+      useFirstGroupAsInitialState: true,
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                duration: 0,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                value: 0,
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              actionTypeId: "TRANSFORM_MOVE",
+              config: {
+                delay: 0,
+                duration: 0,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                xValue: 0,
+                yValue: 100,
+                xUnit: "PX",
+                yUnit: "PX",
+                zUnit: "PX",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              actionTypeId: "TRANSFORM_MOVE",
+              config: {
+                delay: 0,
+                easing: "outQuart",
+                duration: 1000,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                xValue: 0,
+                yValue: 0,
+                xUnit: "PX",
+                yUnit: "PX",
+                zUnit: "PX",
+              },
+            },
+            {
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "outQuart",
+                duration: 1000,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                value: 1,
+              },
+            },
+          ],
+        },
+      ],
+    },
+    growIn: {
+      id: "growIn",
+      useFirstGroupAsInitialState: true,
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                duration: 0,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                value: 0,
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              actionTypeId: "TRANSFORM_SCALE",
+              config: {
+                delay: 0,
+                duration: 0,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                xValue: 0.7500000000000001,
+                yValue: 0.7500000000000001,
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              actionTypeId: "TRANSFORM_SCALE",
+              config: {
+                delay: 0,
+                easing: "outQuart",
+                duration: 1000,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                xValue: 1,
+                yValue: 1,
+              },
+            },
+            {
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "outQuart",
+                duration: 1000,
+                target: {
+                  id: "N/A",
+                  appliesTo: "TRIGGER_ELEMENT",
+                  useEventTarget: true,
+                },
+                value: 1,
+              },
+            },
+          ],
+        },
+      ],
+    },
+  },
+  site: {
+    mediaQueries: [
+      { key: "main", min: 992, max: 10000 },
+      { key: "medium", min: 768, max: 991 },
+      { key: "small", min: 480, max: 767 },
+      { key: "tiny", min: 0, max: 479 },
+    ],
+  },
+});

@@ -276,6 +276,7 @@ video.video-bg {
 .scroll-h2-reverse {
   margin-top: 0px;
   margin-right: 16px;
+  will-change: transform !important;
   opacity:1;
   font-family: Integralcf, sans-serif;
   color: #fb5526;
@@ -295,7 +296,13 @@ video.video-bg {
   font-weight: 600;
   white-space: nowrap;
 }
- 
+.rev{
+
+  transform: rotateX(180deg);
+}
+.reverseing{
+   transform: rotate(180deg);
+ }
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
@@ -951,7 +958,10 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 767px) {
-  
+  .faq{
+    justify-content: center !important;
+    gap: 30px !important;
+  }
   .section.scrolling-text {
     padding-bottom: 6px;
     border-top-width: 1px;
