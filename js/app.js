@@ -1,25 +1,4 @@
-// $(".marquee").marquee({
-//   duration: 10000,
-//   gap: 0,
-//   delayBeforeStart: 0,
-//   direction: "left",
-//   duplicated: true,
-// });
-// $(".marquee-reverse").marquee({
-//   duration: 11000,
-//   gap: 0,
-//   delayBeforeStart: 0,
-//   direction: "right",
-//   duplicated: true,
-// });
-
-// $(document).ready(function () {
-//   $(".individual-faq").click(function () {
-//     $(".individual-faq").removeClass("full-faq");
-//     // $(".tab").addClass("active"); // instead of this do the below
-//     $(this).addClass("full-faq");
-//   });
-// });
+ 
 let faq1 = document.getElementById("faq1");
 let faq2 = document.getElementById("faq2");
 let faq3 = document.getElementById("faq3");

@@ -276,9 +276,9 @@ video.video-bg {
 .scroll-h2-reverse {
   margin-top: 0px;
   margin-right: 16px;
-  opacity: 0.75;
+  opacity:1;
   font-family: Integralcf, sans-serif;
-  color: #445853;
+  color: #fb5526;
   font-size: 64px;
   line-height: 77px;
   font-weight: 600;
@@ -287,9 +287,9 @@ video.video-bg {
   margin-top: 0px;
   margin-right: 16px;
   margin-bottom: 0px;
-  opacity: 0.75;
+  opacity:1;
   font-family: Integralcf, sans-serif;
-  color: #445853;
+  color: #fb5526;
   font-size: 64px;
   line-height: 77px;
   font-weight: 600;
