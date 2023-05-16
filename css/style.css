@@ -78,6 +78,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  overflow-x: hidden !important;
 }
 a {
   text-decoration: none !important;
@@ -137,6 +138,10 @@ h6 {
 }
 .top-less {
   padding-top: 100px !important;
+
+}
+.spec-img{
+  width: 225px;
 }
 .section-pad {
   box-sizing: border-box;
@@ -339,7 +344,8 @@ html.w-mod-touch * {
   background-size: cover;
   position: relative;
   /* z-index: -2; */
-  height: 100vh;
+  overflow-x: hidden !important;
+  min-height: 100vh;
 }
 .brand-section::before {
   content: "";
@@ -425,18 +431,24 @@ text-transform: uppercase;
 .question i {
   font-size: 15px;
 }
+/* .slick-carousel{
+   position: absolute ;
+  bottom: 0;
+  gap: 20px; 
+  align-items: center;
+} */
 .brand-cards {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   position: absolute;
   bottom: 0;
   gap: 20px;
-  left: -8vw;
+  /* left: -8vw; */
   align-items: center;
 }
 .brand-cards img {
   /* width: 250px; */
-  width: 18vw;
+  /* width: 18vw; */
 }
 .close-wid {
   margin-left: -5vw;
@@ -449,11 +461,15 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  position: absolute;
-  bottom: 60px;
-  right: 70px;
+  position: relative;
+  /* bottom: 60px;
+  right: 70px; */
   z-index: 99;
   width: 27vw;
+}
+.flex-act{
+  display: flex;
+    justify-content: space-between;
 }
 .faq {
   margin: 0 !important;
@@ -718,6 +734,13 @@ input[type="range"]::-webkit-slider-thumb {
   text-align: left;
   margin:20px 0;
 }
+.wrapper-abs{
+  position: absolute;
+  bottom: 30px;
+}
+.slick-carousel img{
+      width: -webkit-fill-available;
+}
 @media (max-width: 1800px) {
   .banner {
     height: 100vh;
@@ -725,7 +748,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 @media (min-width: 1800px) {
   .brand-desc {
-    bottom: 90px;
+    bottom: 0px;
   }
 }
 @media (min-width: 1680px) {
@@ -733,7 +756,7 @@ input[type="range"]::-webkit-slider-thumb {
     font-size: 16px;
   }
   .brand-desc {
-    bottom: 70px;
+    bottom:  0px;
     width: 420px;
   }
   .top-brand {
@@ -819,7 +842,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 @media (max-width: 1024px) {
   .brand-section {
-    height: auto;
+    /* min-height: ; */
   }
   .brand-cards {
     position: relative;
@@ -827,21 +850,21 @@ input[type="range"]::-webkit-slider-thumb {
   .brand-desc {
     position: relative;
     left: 0;
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .brand-desc button {
     width: fit-content;
   }
-  .brand-cards img {
+  /* .brand-cards img {
     width: 200px;
-  }
+  } */
   .close-wid {
     margin-left: -70px;
     margin-right: -70px;
   }
-  .brand-cards {
+  /* .brand-cards {
     left: -155px;
-  }
+  } */
   .active-card {
     margin-left: -70px;
   }
@@ -958,6 +981,19 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 767px) {
+  .flex-act{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .brand-section{
+    min-height: auto;
+  }
+  .wrapper-abs{
+    margin-top: 50px;
+    position: static;
+
+  }
+ 
   .faq{
     justify-content: center !important;
     gap: 30px !important;
@@ -983,9 +1019,9 @@ input[type="range"]::-webkit-slider-thumb {
     text-align: center;
     padding-right: 0;
   }
-  .brand-cards {
+  /* .brand-cards {
     left: -114px;
-  }
+  } */
   .top-brand {
     font-size: 60px;
     line-height: 50px;
@@ -1077,19 +1113,27 @@ input[type="range"]::-webkit-slider-thumb {
     /* padding-bottom: 80px; */
     padding-left: 24px;
   }
+   .brand-section
+  {
+    padding-bottom: 40px;
+    padding-top: 40px !important;
+  }
 }
 
 @media (max-width: 600px) {
-  .brand-cards {
+  /* .brand-cards {
     left: -32px;
     flex-wrap: wrap;
-  }
+  } */
   .active-card {
     margin-left: 0px;
     margin-top: -83px;
   }
   .calco{
   gap: 30px !important;}
+  .spec-img{
+    width: 160px;
+  }
 }
 @media (max-width: 547px) {
   .mbl-uper {
@@ -1106,12 +1150,12 @@ input[type="range"]::-webkit-slider-thumb {
    .calc-bg{
     min-width: 270px;
   }
-  .brand-cards {
+  /* .brand-cards {
     flex-direction: column-reverse;
     text-align: center;
     justify-content: center;
     left: 0;
-  }
+  } */
   .brand-cards img {
     width: 100%;
   }
