@@ -141,7 +141,8 @@ h6 {
 
 }
 .spec-img{
-  width: 225px;
+  width: 200px;
+  margin: 0 12px;
 }
 .section-pad {
   box-sizing: border-box;
